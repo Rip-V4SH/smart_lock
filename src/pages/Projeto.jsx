@@ -1,7 +1,9 @@
 export default function Projeto() {
   return (
     <section>
-        <h1>Smart Lock</h1>
+        <header>
+          <h1>Smart Lock</h1>
+        </header>
         <div>
             <p>O mercado está cada vez mais rápido e criando soluções práticas para as mais diversas situações do dia a dia do ser humano. Nesse contexto, percebe-se uma escassez de itens da segurança, sendo assim há a necessidade de um produto que habilite tanto a proteção, quanto ao acesso às residências.</p>
             <p>O nosso objetivo geral é melhorar a praticidade de acesso a residências justamente com um reforço de segurança.</p>
