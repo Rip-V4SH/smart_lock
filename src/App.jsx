@@ -4,6 +4,7 @@ import Projeto from "./pages/Projeto";
 import Menu from "./components/Menu";
 import Criadores from "./pages/Criadores";
 import Proposito from "./pages/Proposito";
+import Materiais from "./pages/Materiais";
 
 const router = createBrowserRouter([
   {
@@ -21,8 +22,12 @@ const router = createBrowserRouter([
   {
     path: "/proposito",
     element: <Proposito />,
-  }
-
+  },
+  {
+    path: "/materiais",
+    element: <Materiais />,
+  },
+  
 ]);
 
 export default function App() {

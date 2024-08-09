@@ -1,9 +1,9 @@
-import config from '../assets/config.svg'
-import prop from '../assets/proposito.svg'
-import comp from '../assets/componentes.svg'
-import cria from '../assets/criadores.svg'
-import agradece from '../assets/agradecimentos.svg'
-import projeto from '../assets/projeto.svg'
+import config from '../assets/menu/config.svg'
+import prop from '../assets/menu/proposito.svg'
+import comp from '../assets/menu/componentes.svg'
+import cria from '../assets/menu/criadores.svg'
+import agradece from '../assets/menu/agradecimentos.svg'
+import projeto from '../assets/menu/projeto.svg'
 
 export default function Menu() {
   return (
