@@ -10,8 +10,8 @@ export default function Menu() {
     <div>
 
         <a>
-            <img src={config} alt="configurações" />
-            <p>configurações</p>
+            <img src={config} alt="engrenagem" />
+            <p>Feedback</p>
         </a>
 
         <a>

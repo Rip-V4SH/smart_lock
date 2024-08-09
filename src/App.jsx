@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import Criadores from "./pages/Criadores";
 import Proposito from "./pages/Proposito";
 import Materiais from "./pages/Materiais";
+import Feedback from "./pages/Feedback";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/materiais",
     element: <Materiais />,
+  },
+  {
+    path: "/feedback",
+    element: <Feedback />,
   },
   
 ]);
