@@ -10,18 +10,15 @@ import bio from '../assets/menu/bio.svg'
 import { CardContainer, DivCards } from './Proposito.styles'
 import { BarraContainer} from './Barra.styles'
 
+import Menu from "../components/Menu"
+
 export function Proposito() {
   return (
     <section>
         <BarraContainer>
         <header>
             <h1>Propósitos</h1>
-            <img src={config} alt="" />
-            <img src={projeto} alt="" />
-            <img src={componentes} alt="" />
-            <img src={agradecimentos} alt="" />
-            <img src={criadores} alt="" />
-            <img src={bio} alt="" />
+            <Menu />
         </header>
         </BarraContainer>
         <DivCards>

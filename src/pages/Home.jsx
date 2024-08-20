@@ -5,7 +5,7 @@ export function Home() {
   return (
     <ImageBackground>
     <div>
-      <img src={digital} alt="" />
+      <a href="/projeto"><img src={digital} alt="" /></a>
     </div>
     </ImageBackground>
   )

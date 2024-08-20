@@ -13,18 +13,15 @@ import bio from '../assets/menu/bio.svg'
 import { CylinderContainer, CylinderContainer2 } from './Materiais.styles'
 import { BarraContainer } from "./Barra.styles"
 
+import Menu from "../components/Menu"
+
 export function Materiais() {
   return (
     <section>
       <BarraContainer>
       <header>
         <h1>Materiais</h1>
-        <img src={config} alt="" />
-        <img src={propositos} alt="" />
-        <img src={projeto} alt="" />
-        <img src={agradecimentos} alt="" />
-        <img src={criadores} alt="" />
-        <img src={bio} alt="" />
+        <Menu />
       </header>
       </BarraContainer>
       <CylinderContainer>

@@ -7,18 +7,15 @@ import criadores from '../assets/menu/criadores.svg'
 import { BarraContainer } from "./Barra.styles"
 import { BioContainer, BioResponsivity } from './Bibliografia.styles'
 
+import Menu from "../components/Menu"
+
 export default function Bibliografia() {
   return (
     <section>
         <BarraContainer>
         <header>
-        <h1>Referências bibliográficas</h1>
-            <img src={config} alt="" />
-            <img src={proposito} alt="" />
-            <img src={componentes} alt="" />
-            <img src={agradecimentos} alt="" />
-            <img src={projeto} alt="" />
-            <img src={criadores} alt="" />
+          <h1>Referências bibliográficas</h1>
+          <Menu />
         </header>
         </BarraContainer>
         <BioResponsivity>

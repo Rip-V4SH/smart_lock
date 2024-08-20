@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components"
 
 import { Home } from "./pages/Home.jsx"
 import { Proposito } from "./pages/Proposito.jsx"
+import Bibliografia from "./pages/Bibliografia.jsx"
 import { Projeto } from "./pages/Projeto.jsx"
 import { Materiais } from "./pages/Materiais.jsx"
 import { Agradecimentos } from "./pages/Agradecimentos.jsx"
@@ -37,9 +38,13 @@ const router = createBrowserRouter([
     element: <Criadores />
   },
   {
-    path: "/configuracoes",
+    path: "/feedback",
     element: <Feedback />
-  }
+  },
+  {
+    path: "/bibliografia",
+    element: <Bibliografia />
+  },
 ])
 
 export function App() {

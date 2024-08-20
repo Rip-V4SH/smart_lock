@@ -8,6 +8,7 @@ import bio from '../assets/menu/bio.svg'
 import { BarraContainer, ProfileImage } from "./Feedback.styles";
 import { CardContainer4, FeedbackContainer, UsuariosContainer, Main } from './Feedback.styles'
 
+import Menu from "../components/Menu"
 
 export function Feedback() {
   return (
@@ -15,12 +16,7 @@ export function Feedback() {
         <BarraContainer>
           <div>
             <h1>Configurações</h1>
-            <img src={projeto} alt="" />
-            <img src={proposito} alt="" />
-            <img src={componentes} alt="" />
-            <img src={agradecimentos} alt="" />
-            <img src={criadores} alt="" />
-            <img src={bio} alt="" />
+            <Menu />
           </div>
           <ProfileImage>
             <img src={perfil} alt="" />

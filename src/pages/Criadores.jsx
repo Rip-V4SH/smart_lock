@@ -8,18 +8,15 @@ import image2 from "../assets/materiais/image2.svg"
 import { BarraContainer } from "./Barra.styles"
 import { CardsContainer3, CardsResponsivity } from './Criadores.styles'
 
+import Menu from "../components/Menu"
+
 export function Criadores() {
   return (
     <section>
         <BarraContainer>
           <header>
             <h1>Desenvolvedores</h1>
-            <img src={config} alt="" />
-            <img src={proposito} alt="" />
-            <img src={componentes} alt="" />
-            <img src={agradecimentos} alt="" />
-            <img src={projeto} alt="" />
-            <img src={bio} alt="" />
+            <Menu />
           </header>
         </BarraContainer>
         <CardsResponsivity>

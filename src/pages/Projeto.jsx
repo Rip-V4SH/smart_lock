@@ -7,6 +7,8 @@ import agradecimentos from '../assets/menu/agradecimentos.svg'
 import bio from '../assets/menu/bio.svg'
 import { CardContainer2, CardContainer3, CardImage, ImageBox, ImageBox2, Main } from "./Projeto.styles"
 
+import Menu from "../components/Menu"
+
 export function Projeto() {
   return (
     <section>
@@ -14,12 +16,7 @@ export function Projeto() {
       <BarraContainer>
         <header>
             <h1>Projeto</h1>
-            <img src={config} alt="" />
-            <img src={propositos} alt="" />
-            <img src={componentes} alt="" />
-            <img src={agradecimentos} alt="" />
-            <img src={criadores} alt="" />
-            <img src={bio} alt="" />
+            <Menu />
           </header>
       </BarraContainer>
       <Main>

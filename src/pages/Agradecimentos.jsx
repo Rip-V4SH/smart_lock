@@ -9,18 +9,15 @@ import { CylinderContainer3 } from './Agradecimentos.styles'
 import { CylinderContainer4 } from "./Agradecimentos.styles"
 import { BarraContainer } from "./Barra.styles"
 
+import Menu from "../components/Menu"
+
 export function Agradecimentos() {
   return (
     <section>
         <BarraContainer>
           <header>
             <h1>Agradecimentos</h1>
-            <img src={config} alt="" />
-            <img src={propositos} alt="" />
-            <img src={componentes} alt="" />
-            <img src={agradecimentos} alt="" />
-            <img src={criadores} alt="" />
-            <img src={bio} alt="" />
+            <Menu />
           </header>
         </BarraContainer>
 
