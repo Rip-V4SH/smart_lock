@@ -1,44 +1,52 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { ThemeProvider } from "styled-components"
 
-import Projeto from "./pages/Projeto";
-import Menu from "./components/Menu";
-import Criadores from "./pages/Criadores";
-import Proposito from "./pages/Proposito";
-import Materiais from "./pages/Materiais";
-import Feedback from "./pages/Feedback";
+import { Home } from "./pages/Home.jsx"
+import { Proposito } from "./pages/Proposito.jsx"
+import { Projeto } from "./pages/Projeto.jsx"
+import { Materiais } from "./pages/Materiais.jsx"
+import { Agradecimentos } from "./pages/Agradecimentos.jsx"
+import { Criadores } from "./pages/Criadores.jsx"
+import { Feedback } from "./pages/Feedback.jsx"
+import { theme } from "./styles/theme.js"
+import { GlobalStyle } from "./styles/global.js"
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Projeto />,
-  },
-  {
-    path: "/menu",
-    element: <Menu />,
-  },
-  {
-    path: "/criadores",
-    element: <Criadores />,
+    element: <Home />
   },
   {
     path: "/proposito",
-    element: <Proposito />,
+    element: <Proposito />
+  },
+  {
+    path: "/projeto",
+    element: <Projeto />
   },
   {
     path: "/materiais",
-    element: <Materiais />,
+    element: <Materiais />
   },
   {
-    path: "/feedback",
-    element: <Feedback />,
+    path: "/agradecimentos",
+    element: <Agradecimentos />
   },
-  
-]);
+  {
+    path: "/criadores",
+    element: <Criadores />
+  },
+  {
+    path: "/configuracoes",
+    element: <Feedback />
+  }
+])
 
-export default function App() {
+export function App() {
   return (
-    <main>
+    <ThemeProvider theme={theme}>
       <RouterProvider router={router} />
-    </main>
+      <GlobalStyle />
+    </ThemeProvider>
   )
 }
