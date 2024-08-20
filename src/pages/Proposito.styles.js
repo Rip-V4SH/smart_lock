@@ -23,7 +23,7 @@ export const CardContainer = styled.div`
             flex-direction: column;
             align-items: center;
             margin: 0vh 10.5vh 2vh;
-            width: 50vh;
+            width: 30vh;
             padding: 5%;
             padding-top: 2%;
             height: 80vh;

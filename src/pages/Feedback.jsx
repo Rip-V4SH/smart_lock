@@ -1,10 +1,11 @@
-import proposito from '../assets/menu/proposito.svg'
+import config from '../assets/menu/config.svg'
+import prop from '../assets/menu/proposito.svg'
+import comp from '../assets/menu/componentes.svg'
+import cria from '../assets/menu/criadores.svg'
+import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
-import componentes from '../assets/menu/componentes.svg'
-import criadores from '../assets/menu/criadores.svg'
-import agradecimentos from '../assets/menu/agradecimentos.svg'
-import perfil from "../assets/materiais/perfil.svg"
 import bio from '../assets/menu/bio.svg'
+import perfil from "../assets/materiais/perfil.svg"
 import { BarraContainer, ProfileImage } from "./Feedback.styles";
 import { CardContainer4, FeedbackContainer, UsuariosContainer, Main } from './Feedback.styles'
 
@@ -16,7 +17,30 @@ export function Feedback() {
         <BarraContainer>
           <div>
             <h1>Configurações</h1>
-            <Menu />
+
+            <a href='/proposito'>
+                <img src={prop} alt="Propósito" />
+            </a>
+
+            <a href='/materiais'>
+                <img src={comp} alt="Componentes" />
+            </a>
+
+            <a href='/agradecimentos'>
+                <img src={agradece} alt="Agradecimentos" />
+            </a>
+            
+            <a href='/criadores'>
+                <img src={cria} alt="Criadores" />
+            </a>
+
+            <a href='/projeto'>
+                <img src={projeto} alt="projeto" />
+            </a>
+            
+            <a href='/bibliografia'>
+                <img src={bio} alt="bibliografia" />
+            </a>
           </div>
           <ProfileImage>
             <img src={perfil} alt="" />

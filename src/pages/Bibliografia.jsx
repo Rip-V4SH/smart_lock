@@ -1,9 +1,10 @@
 import config from '../assets/menu/config.svg'
+import prop from '../assets/menu/proposito.svg'
+import comp from '../assets/menu/componentes.svg'
+import cria from '../assets/menu/criadores.svg'
+import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
-import componentes from '../assets/menu/componentes.svg'
-import proposito from '../assets/menu/proposito.svg'
-import agradecimentos from '../assets/menu/agradecimentos.svg'
-import criadores from '../assets/menu/criadores.svg'
+import bio from '../assets/menu/bio.svg'
 import { BarraContainer } from "./Barra.styles"
 import { BioContainer, BioResponsivity } from './Bibliografia.styles'
 
@@ -15,7 +16,29 @@ export default function Bibliografia() {
         <BarraContainer>
         <header>
           <h1>Referências bibliográficas</h1>
-          <Menu />
+          <a href='/feedback'>
+                <img src={config} alt="engrenagem" />
+            </a>
+
+            <a href='/proposito'>
+                <img src={prop} alt="Propósito" />
+            </a>
+
+            <a href='/materiais'>
+                <img src={comp} alt="Componentes" />
+            </a>
+
+            <a href='/agradecimentos'>
+                <img src={agradece} alt="Agradecimentos" />
+            </a>
+            
+            <a href='/criadores'>
+                <img src={cria} alt="Criadores" />
+            </a>
+
+            <a href='/projeto'>
+                <img src={projeto} alt="projeto" />
+            </a>
         </header>
         </BarraContainer>
         <BioResponsivity>

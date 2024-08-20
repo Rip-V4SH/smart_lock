@@ -5,10 +5,11 @@ import sen from '../assets/materiais/sensor.svg'
 import tela from '../assets/materiais/tela.svg'
 import serv from '../assets/materiais/servo.svg'
 import config from '../assets/menu/config.svg'
-import propositos from "../assets/menu/proposito.svg"
-import projeto from "../assets/menu/projeto.svg"
-import criadores from '../assets/menu/criadores.svg'
-import agradecimentos from '../assets/menu/agradecimentos.svg'
+import prop from '../assets/menu/proposito.svg'
+import comp from '../assets/menu/componentes.svg'
+import cria from '../assets/menu/criadores.svg'
+import agradece from '../assets/menu/agradecimentos.svg'
+import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
 import { CylinderContainer, CylinderContainer2 } from './Materiais.styles'
 import { BarraContainer } from "./Barra.styles"
@@ -21,7 +22,29 @@ export function Materiais() {
       <BarraContainer>
       <header>
         <h1>Materiais</h1>
-        <Menu />
+        <a href='/feedback'>
+                <img src={config} alt="engrenagem" />
+            </a>
+
+            <a href='/proposito'>
+                <img src={prop} alt="Propósito" />
+            </a>
+
+            <a href='/agradecimentos'>
+                <img src={agradece} alt="Agradecimentos" />
+            </a>
+            
+            <a href='/criadores'>
+                <img src={cria} alt="Criadores" />
+            </a>
+
+            <a href='/projeto'>
+                <img src={projeto} alt="projeto" />
+            </a>
+            
+            <a href='/bibliografia'>
+                <img src={bio} alt="bibliografia" />
+            </a>
       </header>
       </BarraContainer>
       <CylinderContainer>
