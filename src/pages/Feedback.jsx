@@ -4,8 +4,10 @@ import componentes from '../assets/menu/componentes.svg'
 import criadores from '../assets/menu/criadores.svg'
 import agradecimentos from '../assets/menu/agradecimentos.svg'
 import perfil from "../assets/materiais/perfil.svg"
+import bio from '../assets/menu/bio.svg'
 import { BarraContainer, ProfileImage } from "./Feedback.styles";
 import { CardContainer4, FeedbackContainer, UsuariosContainer, Main } from './Feedback.styles'
+
 
 export function Feedback() {
   return (
@@ -18,6 +20,7 @@ export function Feedback() {
             <img src={componentes} alt="" />
             <img src={agradecimentos} alt="" />
             <img src={criadores} alt="" />
+            <img src={bio} alt="" />
           </div>
           <ProfileImage>
             <img src={perfil} alt="" />

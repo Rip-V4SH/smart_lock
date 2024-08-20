@@ -54,7 +54,7 @@ export const CardContainer3 = styled.div `
         @media (min-width: 768px) {
             height: 100%;
             width: auto;
-            margin: 0% 5% 5% 5%;
+            margin: 0% 5% 2% 5%;
             border-radius: 2vh;
             padding: 3vh;
             p {
@@ -85,13 +85,11 @@ export const ImageBox2 = styled.div`
         color: ${props => props.theme.containerText};
         display: flex;
         text-align: center;
-        padding: 25%;
+        padding: 22%;
         border-radius: 2vh;
         display: none;
         @media (min-width: 768px) {
             display: block;
-            height: 50%;
-            padding: 25%;
             margin: 1% 5% 0% 5%;
         }
     }

@@ -4,6 +4,7 @@ import propositos from "../assets/menu/proposito.svg"
 import componentes from '../assets/menu/componentes.svg'
 import criadores from '../assets/menu/criadores.svg'
 import agradecimentos from '../assets/menu/agradecimentos.svg'
+import bio from '../assets/menu/bio.svg'
 import { CylinderContainer3 } from './Agradecimentos.styles'
 import { CylinderContainer4 } from "./Agradecimentos.styles"
 import { BarraContainer } from "./Barra.styles"
@@ -19,6 +20,7 @@ export function Agradecimentos() {
             <img src={componentes} alt="" />
             <img src={agradecimentos} alt="" />
             <img src={criadores} alt="" />
+            <img src={bio} alt="" />
           </header>
         </BarraContainer>
 

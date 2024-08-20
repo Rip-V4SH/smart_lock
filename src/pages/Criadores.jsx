@@ -3,6 +3,7 @@ import projeto from '../assets/menu/projeto.svg'
 import componentes from '../assets/menu/componentes.svg'
 import proposito from '../assets/menu/proposito.svg'
 import agradecimentos from '../assets/menu/agradecimentos.svg'
+import bio from '../assets/menu/bio.svg'
 import image2 from "../assets/materiais/image2.svg"
 import { BarraContainer } from "./Barra.styles"
 import { CardsContainer3, CardsResponsivity } from './Criadores.styles'
@@ -18,6 +19,7 @@ export function Criadores() {
             <img src={componentes} alt="" />
             <img src={agradecimentos} alt="" />
             <img src={projeto} alt="" />
+            <img src={bio} alt="" />
           </header>
         </BarraContainer>
         <CardsResponsivity>

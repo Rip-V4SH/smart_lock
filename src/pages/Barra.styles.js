@@ -9,7 +9,7 @@ export const BarraContainer = styled.div`
     img {
         height: 4vh;
         margin-top: 2%;
-        margin-inline: 2.2vh;
+        margin-inline: 1.5vh;
     }
     h1 {
         font-size: 3vh;
@@ -17,6 +17,10 @@ export const BarraContainer = styled.div`
     @media (min-width: 768px) {
         margin-bottom: 4vh;
         padding-top: 4vh;
+        &:hover,
+        &:focus {
+        background: ${props => props.theme.boxColor};
+  }
         img {
             display: none; 
         }

@@ -18,6 +18,7 @@ export const CardContainer4 = styled.div`
         }
         @media (min-width: 768px) {
             width: 40vh;
+            margin-right: 5vh;
             img {
                 display: none;
             }
@@ -66,6 +67,11 @@ export const FeedbackContainer = styled.div `
         border: none;
         border-radius: 2vh;
         padding: 1vh;
+        &:hover,
+        &:focus {
+        background: ${props => props.theme.background};
+        color: ${props => props.theme.containerText};
+        }
     }
     input::placeholder {
         color: ${props => props.theme.background};
@@ -79,6 +85,12 @@ export const FeedbackContainer = styled.div `
     }
     @media (min-width: 768px) {
         width: 90vh;
+        button {
+        &:hover,
+        &:focus {
+        background: ${props => props.theme.background};
+        color: ${props => props.theme.containerText};
+        }
     }
 `
 export const UsuariosContainer = styled.div`
@@ -101,7 +113,7 @@ export const BarraContainer = styled.div`
     img {
         height: 4vh;
         margin-top: 2%;
-        margin-inline: 2.2vh;
+        margin-inline: 1.5vh;
     }
     h1 {
         font-size: 3vh;

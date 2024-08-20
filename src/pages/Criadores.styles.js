@@ -8,6 +8,7 @@ export const CardsResponsivity = styled.div`
         display: flex;
         flex-direction: row;
         justify-content: center;
+        text-align: center;
     }
 `
 
@@ -34,8 +35,12 @@ export const CardsContainer3 = styled.div`
             border-radius: 5vh;
         }
         @media (min-width: 768px) {
-            width: 30vh;
-            height: 40vh;
+            width: 45vh;
+            height: 50vh;
+        h2 {
+            margin-bottom: 2vh;
+            margin-inline: 10%;
+        }
         }
     }
 `

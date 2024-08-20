@@ -6,6 +6,7 @@ import projeto from '../assets/menu/projeto.svg'
 import componentes from '../assets/menu/componentes.svg'
 import criadores from '../assets/menu/criadores.svg'
 import agradecimentos from '../assets/menu/agradecimentos.svg'
+import bio from '../assets/menu/bio.svg'
 import { CardContainer, DivCards } from './Proposito.styles'
 import { BarraContainer} from './Barra.styles'
 
@@ -14,12 +15,13 @@ export function Proposito() {
     <section>
         <BarraContainer>
         <header>
-            <h1>Projeto</h1>
+            <h1>Propósitos</h1>
             <img src={config} alt="" />
             <img src={projeto} alt="" />
             <img src={componentes} alt="" />
             <img src={agradecimentos} alt="" />
             <img src={criadores} alt="" />
+            <img src={bio} alt="" />
         </header>
         </BarraContainer>
         <DivCards>

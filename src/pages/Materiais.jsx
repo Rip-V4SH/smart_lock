@@ -9,6 +9,7 @@ import propositos from "../assets/menu/proposito.svg"
 import projeto from "../assets/menu/projeto.svg"
 import criadores from '../assets/menu/criadores.svg'
 import agradecimentos from '../assets/menu/agradecimentos.svg'
+import bio from '../assets/menu/bio.svg'
 import { CylinderContainer, CylinderContainer2 } from './Materiais.styles'
 import { BarraContainer } from "./Barra.styles"
 
@@ -23,6 +24,7 @@ export function Materiais() {
         <img src={projeto} alt="" />
         <img src={agradecimentos} alt="" />
         <img src={criadores} alt="" />
+        <img src={bio} alt="" />
       </header>
       </BarraContainer>
       <CylinderContainer>

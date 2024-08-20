@@ -22,7 +22,8 @@ export const CardContainer = styled.div`
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 0vh 5vh 2vh 5vh;
+            margin: 0vh 10.5vh 2vh;
+            width: 50vh;
             padding: 5%;
             padding-top: 2%;
             height: 80vh;

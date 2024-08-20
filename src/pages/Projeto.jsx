@@ -4,6 +4,7 @@ import propositos from "../assets/menu/proposito.svg"
 import componentes from '../assets/menu/componentes.svg'
 import criadores from '../assets/menu/criadores.svg'
 import agradecimentos from '../assets/menu/agradecimentos.svg'
+import bio from '../assets/menu/bio.svg'
 import { CardContainer2, CardContainer3, CardImage, ImageBox, ImageBox2, Main } from "./Projeto.styles"
 
 export function Projeto() {
@@ -18,6 +19,7 @@ export function Projeto() {
             <img src={componentes} alt="" />
             <img src={agradecimentos} alt="" />
             <img src={criadores} alt="" />
+            <img src={bio} alt="" />
           </header>
       </BarraContainer>
       <Main>

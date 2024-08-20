@@ -25,7 +25,6 @@ export const CylinderContainer = styled.div`
                 width: 10vh;
                 height: 10vh;
                 padding: 2vh;
-                margin: 1vh;
                 background: #448DE3;
                 border-radius: 50%;
             }
