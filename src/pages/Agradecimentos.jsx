@@ -8,6 +8,7 @@ import bio from '../assets/menu/bio.svg'
 import { CylinderContainer3 } from './Agradecimentos.styles'
 import { CylinderContainer4 } from "./Agradecimentos.styles"
 import { BarraContainer } from "./Barra.styles"
+import { Link } from "react-router-dom"
 
 import Menu from "../components/Menu"
 
@@ -17,29 +18,29 @@ export function Agradecimentos() {
         <BarraContainer>
           <header>
             <h1>Agradecimentos</h1>
-            <a href='/feedback'>
+            <Link to='/feedback'>
                 <img src={config} alt="engrenagem" />
-            </a>
+            </Link>
 
-            <a href='/proposito'>
+            <Link to='/proposito'>
                 <img src={prop} alt="Propósito" />
-            </a>
+            </Link>
 
-            <a href='/materiais'>
+            <Link to='/materiais'>
                 <img src={comp} alt="Componentes" />
-            </a>
+            </Link>
             
-            <a href='/criadores'>
+            <Link to='/criadores'>
                 <img src={cria} alt="Criadores" />
-            </a>
+            </Link>
 
-            <a href='/projeto'>
+            <Link to='/projeto'>
                 <img src={projeto} alt="projeto" />
-            </a>
+            </Link>
             
-            <a href='/bibliografia'>
+            <Link to='/bibliografia'>
                 <img src={bio} alt="bibliografia" />
-            </a>
+            </Link>
           </header>
         </BarraContainer>
 

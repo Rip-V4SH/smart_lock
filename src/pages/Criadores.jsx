@@ -8,6 +8,7 @@ import bio from '../assets/menu/bio.svg'
 import image2 from "../assets/materiais/image2.svg"
 import { BarraContainer } from "./Barra.styles"
 import { CardsContainer3, CardsResponsivity } from './Criadores.styles'
+import { Link } from 'react-router-dom'
 
 import Menu from "../components/Menu"
 
@@ -17,29 +18,29 @@ export function Criadores() {
         <BarraContainer>
           <header>
             <h1>Desenvolvedores</h1>
-            <a href='/feedback'>
+            <Link to='/feedback'>
                 <img src={config} alt="engrenagem" />
-            </a>
+            </Link>
 
-            <a href='/proposito'>
+            <Link to='/proposito'>
                 <img src={prop} alt="Propósito" />
-            </a>
+            </Link>
 
-            <a href='/materiais'>
+            <Link to='/materiais'>
                 <img src={comp} alt="Componentes" />
-            </a>
+            </Link>
 
-            <a href='/agradecimentos'>
+            <Link to='/agradecimentos'>
                 <img src={agradece} alt="Agradecimentos" />
-            </a>
+            </Link>
 
-            <a href='/projeto'>
+            <Link to='/projeto'>
                 <img src={projeto} alt="projeto" />
-            </a>
+            </Link>
             
-            <a href='/bibliografia'>
+            <Link to='/bibliografia'>
                 <img src={bio} alt="bibliografia" />
-            </a>
+            </Link>
           </header>
         </BarraContainer>
         <CardsResponsivity>

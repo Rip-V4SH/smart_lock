@@ -7,7 +7,7 @@ import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
 import { CardContainer2, CardContainer3, CardImage, ImageBox, ImageBox2, Main } from "./Projeto.styles"
-
+import { Link } from "react-router-dom"
 import Menu from "../components/Menu"
 
 export function Projeto() {
@@ -17,29 +17,29 @@ export function Projeto() {
       <BarraContainer>
         <header>
             <h1>Projeto</h1>
-            <a href='/feedback'>
+            <Link to='/feedback'>
                 <img src={config} alt="engrenagem" />
-            </a>
+            </Link>
 
-            <a href='/proposito'>
+            <Link to='/proposito'>
                 <img src={prop} alt="Propósito" />
-            </a>
+            </Link>
 
-            <a href='/materiais'>
+            <Link to='/materiais'>
                 <img src={comp} alt="Componentes" />
-            </a>
+            </Link>
 
-            <a href='/agradecimentos'>
+            <Link to='/agradecimentos'>
                 <img src={agradece} alt="Agradecimentos" />
-            </a>
+            </Link>
             
-            <a href='/criadores'>
+            <Link to='/criadores'>
                 <img src={cria} alt="Criadores" />
-            </a>
+            </Link>
             
-            <a href='/bibliografia'>
+            <Link to='/bibliografia'>
                 <img src={bio} alt="bibliografia" />
-            </a>
+            </Link>
           </header>
       </BarraContainer>
       <Main>

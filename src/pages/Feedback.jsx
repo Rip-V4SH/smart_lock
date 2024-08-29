@@ -8,6 +8,7 @@ import bio from '../assets/menu/bio.svg'
 import perfil from "../assets/materiais/perfil.svg"
 import { BarraContainer, ProfileImage } from "./Feedback.styles";
 import { CardContainer4, FeedbackContainer, UsuariosContainer, Main } from './Feedback.styles'
+import { Link } from 'react-router-dom'
 
 import Menu from "../components/Menu"
 
@@ -18,29 +19,29 @@ export function Feedback() {
           <div>
             <h1>Configurações</h1>
 
-            <a href='/proposito'>
+            <Link to='/proposito'>
                 <img src={prop} alt="Propósito" />
-            </a>
+            </Link>
 
-            <a href='/materiais'>
+            <Link to='/materiais'>
                 <img src={comp} alt="Componentes" />
-            </a>
+            </Link>
 
-            <a href='/agradecimentos'>
+            <Link to='/agradecimentos'>
                 <img src={agradece} alt="Agradecimentos" />
-            </a>
+            </Link>
             
-            <a href='/criadores'>
+            <Link to='/criadores'>
                 <img src={cria} alt="Criadores" />
-            </a>
+            </Link>
 
-            <a href='/projeto'>
+            <Link to='/projeto'>
                 <img src={projeto} alt="projeto" />
-            </a>
+            </Link>
             
-            <a href='/bibliografia'>
+            <Link to='/bibliografia'>
                 <img src={bio} alt="bibliografia" />
-            </a>
+            </Link>
           </div>
           <ProfileImage>
             <img src={perfil} alt="" />
