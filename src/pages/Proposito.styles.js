@@ -19,15 +19,9 @@ export const CardContainer = styled.div`
             text-align: justify;
         }
         @media(min-width: 768px) {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0vh 10.5vh 2vh;
-            width: 30vh;
-            padding: 5%;
-            padding-top: 2%;
-            height: 80vh;
-            gap: 8vh;
+            height: 60vh;
+            width: 25vh;
+            margin-inline: 2vh;
             h2 {
                 font-size: 22px;
             }
@@ -41,11 +35,18 @@ export const CardContainer = styled.div`
             }
 
         }
+        @media(min-width: 1024px) {
+            height: 60vh;
+            width: 30vh;
+            margin-inline: 5vh;
+        }
     }
 `
 export const DivCards = styled.div`
     @media(min-width: 768px) {
         display: flex;
+        justify-content: center;
+        align-content: center;
     }
 `
 export const BarraContainer = styled.div`
