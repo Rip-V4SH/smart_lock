@@ -2,32 +2,29 @@ import styled from "styled-components"
 
 export const CardContainer2 = styled.div `
     div {
-        background: ${props => props.theme.barraBackground};
+        background: ${props => props.theme.blue};
         color: ${props => props.theme.white};
-        margin-inline: 2vh;
         padding: 1.2vh;
         border-radius: 2vh 2vh 0vh 0vh;
         text-align: justify;
         h2 {
-            color: ${props => props.theme.background};
+            color: ${props => props.theme.black};
             margin-block: 2vh;
             text-align: center;
         }
         p {
+            color: ${props => props.theme.black};
             margin-bottom: 1vh;
             margin-inline: 2vh;
-            line-height: 2vh;
         }
         @media (min-width: 768px) {
             border-radius: 2vh;
-            width: 50vh;
-            padding: 3vh;
+            width: auto;
             height: 100%;
             p {
                 margin-block: 1vh;
                 margin-inline: 1.5vh;
-                line-height: 3vh;
-                font-size: 14px;
+                font-size: 16px;
             }
         }
     }
@@ -35,33 +32,26 @@ export const CardContainer2 = styled.div `
 
 export const CardContainer3 = styled.div `
     div {
-        background: ${props => props.theme.barraBackground};
+        background: ${props => props.theme.blue};
         color: ${props => props.theme.white};
-        margin-inline: 2vh;
         padding: 1.2vh;
         border-radius: 0vh 0vh 2vh 2vh;
         text-align: justify;
         h2 {
-            color: ${props => props.theme.background};
-            margin-block: 2vh;
+            color: ${props => props.theme.black};
+            margin-block: 1vh;
             text-align: center;
         }
         p {
+            color: ${props => props.theme.black};
             margin-bottom: 1vh;
-            margin-inline: 2vh;
-            line-height: 2vh;
         }
         @media (min-width: 768px) {
             height: 100%;
-            width: auto;
-            margin: 0% 5% 2% 5%;
+            width: 50vh;
             border-radius: 2vh;
-            padding: 3vh;
             p {
-                margin-block: 1.5vh;
-                margin-inline: 1.5vh;
-                line-height: 3vh;
-                font-size: 14px;
+                font-size: 16px;
             }
         }
     }
@@ -91,6 +81,7 @@ export const ImageBox2 = styled.div`
         @media (min-width: 768px) {
             display: block;
             margin: 1% 5% 0% 5%;
+            width: auto;
         }
     }
 `
@@ -100,18 +91,28 @@ export const Main = styled.div`
     justify-content: center;
     @media (min-width: 768px) {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         p{
             color: ${props => props.theme.projetoText};
         }
     }
 `
-export const CardImage = styled.div `
+export const Cardinfos = styled.div `
+    
+    margin-inline: 5%;
+    
     @media (min-width: 768px) {
+        margin-inline: 0%;
         display: flex;
-        flex-direction: column;
-        width: 55%;
-        height: 98%;
+        flex-direction: row;
+        width: auto;
+        justify-content: space-between;
+        padding-inline: 5%;
+        gap: 2rem;
+
+        div {
+            width: 100%;
+        }
     }
 
 `

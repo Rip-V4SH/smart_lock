@@ -13,7 +13,12 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: ${props => props.theme.background};
+        background: ${props => props.theme.white};
+    }
+    [data-theme="dark"] {
+        h1, h2, p, a {
+            color: ${props => props.theme.white};
+        }
     }
     
     

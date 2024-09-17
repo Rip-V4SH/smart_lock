@@ -6,6 +6,7 @@ import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
 import image2 from "../assets/materiais/image2.svg"
+import { Link } from "react-router-dom"
 import { BarraContainer } from "./Barra.styles"
 import { CardsContainer3, CardsResponsivity } from './Criadores.styles'
 import { Link } from 'react-router-dom'
@@ -18,6 +19,7 @@ export function Criadores() {
         <BarraContainer>
           <header>
             <h1>Desenvolvedores</h1>
+<<<<<<< HEAD
             <Link to='/feedback'>
                 <img src={config} alt="engrenagem" />
             </Link>
@@ -41,6 +43,33 @@ export function Criadores() {
             <Link to='/bibliografia'>
                 <img src={bio} alt="bibliografia" />
             </Link>
+=======
+            <div className="icons"> 
+              <Link to='/feedback'>
+                  <img src={config} alt="engrenagem" />
+              </Link>
+
+              <Link to='/proposito'>
+                <img src={prop} alt="Propósito" />
+              </Link>
+
+              <Link to='/materiais'>
+                <img src={comp} alt="Componentes" />
+              </Link>
+
+              <Link to='/agradecimentos'>
+                <img src={agradece} alt="Agradecimentos" />
+              </Link>
+              
+              <Link to='/projeto'>
+                <img src={projeto} alt="Projeto" />
+              </Link>
+              
+              <Link to='/bibliografia'>
+                <img src={bio} alt="bibliografia" />
+              </Link>
+            </div>
+>>>>>>> 2885fba (finalizando)
           </header>
         </BarraContainer>
         <CardsResponsivity>
@@ -48,21 +77,21 @@ export function Criadores() {
             <div>
               <img src={image2} alt="" />
               <h2>Arthur Lima</h2>
-              <a href="">Ver mais</a>
+              <button href="">Ver mais</button>
             </div>
             </CardsContainer3>
             <CardsContainer3>
             <div>
               <img src={image2} alt="" />
               <h2>Igor Fernandes</h2>
-              <a href="">Ver mais</a>
+              <button href="">Ver mais</button>
             </div>
             </CardsContainer3>
             <CardsContainer3>
             <div>
               <img src={image2} alt="" />
               <h2>Felipe Vaz</h2>
-              <a href="">Ver mais</a>
+              <button href="">Ver mais</button>
             </div>
           </CardsContainer3>
         </CardsResponsivity>

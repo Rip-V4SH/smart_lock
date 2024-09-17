@@ -1,6 +1,6 @@
-import seg from '../assets/seguranca.svg'
-import mao from '../assets/mao.svg'
-import nuvem from '../assets/nuvem.svg'
+import seg from '../assets/seguranca_light.svg'
+import mao from '../assets/mao_light.svg'
+import nuvem from '../assets/nuvem_light.svg'
 import config from '../assets/menu/config.svg'
 import prop from '../assets/menu/proposito.svg'
 import comp from '../assets/menu/componentes.svg'
@@ -8,6 +8,7 @@ import cria from '../assets/menu/criadores.svg'
 import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
+import { Link } from "react-router-dom"
 import { CardContainer, DivCards } from './Proposito.styles'
 import { BarraContainer} from './Barra.styles'
 import { Link } from 'react-router-dom'
@@ -20,6 +21,7 @@ export function Proposito() {
         <BarraContainer>
         <header>
             <h1>Propósitos</h1>
+<<<<<<< HEAD
             <Link to="/feedback">
                 <img src={config} alt="engrenagem" />
             </Link>
@@ -42,6 +44,33 @@ export function Proposito() {
             <Link to="/bibliografia">
                 <img src={bio} alt="bibliografia" />
             </Link>
+=======
+            <div className="icons"> 
+            <Link to='/feedback'>
+                  <img src={config} alt="engrenagem" />
+              </Link>
+
+              <Link to='/projeto'>
+                  <img src={projeto} alt="Projeto" />
+              </Link>
+
+              <Link to='/materiais'>
+                  <img src={comp} alt="Componentes" />
+              </Link>
+
+              <Link to='/agradecimentos'>
+                  <img src={agradece} alt="Agradecimentos" />
+              </Link>
+              
+              <Link to='/criadores'>
+                  <img src={cria} alt="Criadores" />
+              </Link>
+              
+              <Link to='/bibliografia'>
+                  <img src={bio} alt="bibliografia" />
+              </Link>
+            </div>
+>>>>>>> 2885fba (finalizando)
         </header>
         </BarraContainer>
         <DivCards>

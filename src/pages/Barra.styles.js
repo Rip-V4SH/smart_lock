@@ -1,11 +1,15 @@
 import styled from "styled-components"
 
 export const BarraContainer = styled.div`
-    background: ${props => props.theme.barraBackground};
-    color: ${props => props.theme.containerText};
-    text-align: center;
+    color: ${props => props.theme.black};
     margin-bottom: 4vh;
-    padding: 2vh;
+    header {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+
     img {
         height: 4vh;
         margin-top: 2%;
@@ -15,18 +19,22 @@ export const BarraContainer = styled.div`
         font-size: 3vh;
     }
     @media (min-width: 768px) {
-        margin-bottom: 4vh;
-        padding-top: 4vh;
-        &:hover,
-        &:focus {
-        background: ${props => props.theme.boxColor};
-  }
-        img {
-            display: none; 
+        header {
+            margin-bottom: 4vh;
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            justify-content:space-between;
         }
+
+        img {
+            height: 40px;
+        }
+
         h1 {
-            font-size:5vh;
+            font-size:50px;
             text-transform: uppercase;
+            margin-left: 2rem;
         }
     }
 `

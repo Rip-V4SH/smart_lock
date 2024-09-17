@@ -6,8 +6,14 @@ import cria from '../assets/menu/criadores.svg'
 import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
+<<<<<<< HEAD
 import { CardContainer2, CardContainer3, CardImage, ImageBox, ImageBox2, Main } from "./Projeto.styles"
 import { Link } from "react-router-dom"
+=======
+import { Link } from "react-router-dom"
+import { CardContainer2, CardContainer3, Cardinfos, ImageBox, ImageBox2, Main } from "./Projeto.styles"
+
+>>>>>>> 2885fba (finalizando)
 import Menu from "../components/Menu"
 
 export function Projeto() {
@@ -17,6 +23,7 @@ export function Projeto() {
       <BarraContainer>
         <header>
             <h1>Projeto</h1>
+<<<<<<< HEAD
             <Link to='/feedback'>
                 <img src={config} alt="engrenagem" />
             </Link>
@@ -40,6 +47,33 @@ export function Projeto() {
             <Link to='/bibliografia'>
                 <img src={bio} alt="bibliografia" />
             </Link>
+=======
+            <div className="icons"> 
+              <Link to='/feedback'>
+                  <img src={config} alt="engrenagem" />
+              </Link>
+
+              <Link to='/proposito'>
+                  <img src={prop} alt="Propósito" />
+              </Link>
+
+              <Link to='/materiais'>
+                  <img src={comp} alt="Componentes" />
+              </Link>
+
+              <Link to='/agradecimentos'>
+                  <img src={agradece} alt="Agradecimentos" />
+              </Link>
+              
+              <Link to='/criadores'>
+                  <img src={cria} alt="Criadores" />
+              </Link>
+              
+              <Link to='/bibliografia'>
+                  <img src={bio} alt="bibliografia" />
+              </Link>
+            </div>
+>>>>>>> 2885fba (finalizando)
           </header>
       </BarraContainer>
       <Main>
@@ -48,28 +82,32 @@ export function Projeto() {
           <h3>Imagem</h3>
           </div>
         </ImageBox>
-        <CardContainer2>
-          <div>
-            <p>O mercado está cada vez mais rápido e criando soluções práticas para as mais diversas situações do dia a dia do ser humano. Nesse contexto, percebe-se uma escassez de itens da segurança, sendo assim há a necessidade de um produto que habilite tanto a proteção, quanto ao acesso às residências.</p>
-            <p>O nosso objetivo geral é melhorar a praticidade de acesso a residências justamente com um reforço de segurança.</p>
-            <p>Monitoraremos o controle de pessoas que se aproximam da residência;</p>
-            <p>Alertaremos o proprietário sobre um perigo a sua residência;</p>
-            <p>Facilitaremos o cotidiano, automatizando o acesso a residência, que se repete ao longo do dia.</p>
-          </div>
-        </CardContainer2>
-        <CardImage>
-        <CardContainer3>
+        <Cardinfos>
+          <CardContainer2>
             <div>
-              <h2>Aplicativo</h2>
-              <p>Como já citado anteriormente, o aplicativo terá funções importantes, como a reprodução da imagem que a câmera trará, além de cadastro de digitais, suporte e intensidade do alarme.</p>
+              <p>Nós trazemos segurança para sua casa com o melhor custo-beneficio, a nossa maçaneta tem leitor biometrico e camera. 
+                Assim você terá: </p>
+                <p>O controle de pessoas;</p>
+                <p>Alarme que irá alertar no aplicativo, além de comunicar a emergencia;</p>
+                <p>Facilidade com o acesso diario.</p>
             </div>
-          </CardContainer3>
+          </CardContainer2>
+          <CardContainer3>
+              <div>
+                <h2>Aplicativo</h2>
+                <p>O aplicativo  terá conexão Wi-Fi com o Smart Lock e será usado para:</p>
+                <p>Cadastro de digitais;</p>
+                <p>Monitoramento de camera 24 horas;</p>
+                <p>Alarme;</p>
+                <p>Personalização do led.</p>
+              </div>
+            </CardContainer3>
+        </Cardinfos>
           <ImageBox2>
             <div>
             <h3>Imagem</h3>
             </div>
           </ImageBox2>
-        </CardImage>
         <img src="" alt="" />
       </Main>
     </section>

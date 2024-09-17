@@ -1,16 +1,14 @@
 import styled from "styled-components"
 
 export const BioContainer = styled.div`
-    background: ${props => props.theme.barraBackground};
-    color: ${props => props.theme.background};
+    background: ${props => props.theme.blue};
+    color: ${props => props.theme.black};
+    font-size: 16px;
     margin: 8%;
     padding: 5%;
     text-align: justify;
     border-radius: 2vh;
     margin-top: 0;
-    p {
-        margin-bottom: 2vh;
-    }
 `
 
 export const BioResponsivity = styled.div`

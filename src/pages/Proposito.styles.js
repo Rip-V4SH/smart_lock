@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const CardContainer = styled.div`
     div {
-        background: ${props => props.theme.containerText};
-        color: ${props => props.theme.white};
+        background: ${props => props.theme.blue};
+        color: ${props => props.theme.black};
         padding: 5%;
         margin: 10%;
         text-align: center;
@@ -13,24 +13,37 @@ export const CardContainer = styled.div`
             width: 5vh;
             margin-left: 87%;
             margin-top: 2vh;
+            color: ${props => props.theme.eletricblue};
         }
         p {
             margin-top: 2vh;
             text-align: justify;
         }
         @media(min-width: 768px) {
+<<<<<<< HEAD
             height: 60vh;
             width: 25vh;
             margin-inline: 2vh;
+=======
+            margin: 0%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10%;
+            padding-top: 2%;
+            width: auto;
+            height: 100%;
+>>>>>>> 2885fba (finalizando)
             h2 {
-                font-size: 22px;
+                font-size: 30px;
             }
             p {
-                font-size: 16px;
+                font-size: 20px;
+                margin-bottom: 10rem;
             }
             img {
-                width: 8vh;
-                height: 8vh;
+                height: 70px;
+                width: 70px;
                 margin: 20%;
             }
 
@@ -46,6 +59,7 @@ export const DivCards = styled.div`
     @media(min-width: 768px) {
         display: flex;
         justify-content: center;
+<<<<<<< HEAD
         align-content: center;
     }
 `
@@ -59,5 +73,9 @@ export const BarraContainer = styled.div`
         height: 4vh;
         margin-top: 2%;
         margin-inline: 5.5%;
+=======
+        gap: 6rem;
+        padding-inline: 5%;
+>>>>>>> 2885fba (finalizando)
     }
 `

@@ -2,16 +2,94 @@ import styled from "styled-components"
 
 export const CardContainer4 = styled.div`
     div {
+        background: ${props => props.theme.white};
         width: auto;
         height: auto;
-        h1 {
-            background: ${props => props.theme.barraBackground};
-            color: ${props => props.theme.detailsText};
+
+        .darkmode {
+            display: flex;
+            background: ${props => props.theme.blue};
+            color: ${props => props.theme.black};
             padding: 2vh;
             margin: 1%;
             border-radius: 2vh;
             margin-bottom: 1.2vh;
+            width: auto;
+            gap: 1rem;
+            button {
+                width: 30px;
+                height: 30px;
+                padding: 1rem;
+                border: none;
+                border-radius: 50%;
+                cursor: pointer;
+            }
         }
+
+        .senha {
+            display: flex;
+            background: ${props => props.theme.blue};
+            color: ${props => props.theme.black};
+            padding: 2vh;
+            margin: 1%;
+            border-radius: 2vh;
+            margin-bottom: 1.2vh;
+            width: auto;
+            gap: 1rem;
+            input {
+                background: none;
+                border: none;
+            }
+        }
+
+        .email {
+            display: flex;
+            background: ${props => props.theme.blue};
+            color: ${props => props.theme.black};
+            padding: 2vh;
+            margin: 1%;
+            border-radius: 2vh;
+            margin-bottom: 1.2vh;
+            width: auto;
+            gap: 1rem;
+            input {
+                background: none;
+                border: none;
+            }
+        }
+
+        .data {
+            display: flex;
+            background: ${props => props.theme.blue};
+            color: ${props => props.theme.black};
+            padding: 2vh;
+            margin: 1%;
+            border-radius: 2vh;
+            margin-bottom: 1.2vh;
+            width: auto;
+            gap: 1rem;
+            input {
+                background: none;
+                border: none;
+            }
+        }
+
+        .telefone {
+            display: flex;
+            background: ${props => props.theme.blue};
+            color: ${props => props.theme.black};
+            padding: 2vh;
+            margin: 1%;
+            border-radius: 2vh;
+            margin-bottom: 1.2vh;
+            width: auto;
+            gap: 1rem;
+            input {
+                background: none;
+                border: none;
+            }
+        }
+
         img {
             margin-block: 2vh;
             margin-left: 80%
@@ -25,41 +103,43 @@ export const CardContainer4 = styled.div`
         }
     }
 `
-export const FeedbackContainer = styled.div `
-    background: ${props => props.theme.boxColor};
+export const FeedbackContainer = styled.div`
+    background: ${props => props.theme.blue};
     margin: 3%;
     margin-block: 2vh;
     border-radius: 3vh;
     padding: 0.1vh;
     h1 {
-        background: ${props => props.theme.barraBackground};
-        color: ${props => props.theme.detailsText};
+        color: ${props => props.theme.black};
+        font-size: 24px;
         padding: 0.5vh;
         margin: 3%;
         border-radius: 2vh;
         text-align: center;
     }
     h2 {
-        color: ${props => props.theme.littleText};
+        color: ${props => props.theme.black};
         margin-inline: 5%;
     }
     p {
-        color: ${props => props.theme.littleText};
+        color: ${props => props.theme.black};
+        font-size: 16px;
         margin-inline: 5%;
         margin-block: 1vh;
     }
     input {
-        background: ${props => props.theme.containerText};
+        background: ${props => props.theme.white};
+        color: ${props => props.theme.black};
         display: flex;
         width: 90%;
+        padding-bottom: 70%;
         margin-left: 5%;
-        padding: 15%;
         border-radius: 2vh;
         border: none;
     }
     button {
-        background: ${props => props.theme.containerText};
-        color: ${props => props.theme.background};
+        background: ${props => props.theme.darkblue};
+        color: ${props => props.theme.black};
         font-size: 2vh;
         margin-block: 2vh;
         margin: 5%;
@@ -74,7 +154,7 @@ export const FeedbackContainer = styled.div `
         }
     }
     input::placeholder {
-        color: ${props => props.theme.background};
+        color: ${props => props.theme.black};
         position: absolute;
         top: 0; 
         left: 0;
@@ -91,8 +171,10 @@ export const FeedbackContainer = styled.div `
         background: ${props => props.theme.background};
         color: ${props => props.theme.containerText};
         }
+        }
     }
 `
+
 export const UsuariosContainer = styled.div`
     background: ${props => props.theme.boxColor};
     border: 0.5vh solid ${props => props.theme.barraBackground};
@@ -104,12 +186,18 @@ export const UsuariosContainer = styled.div`
         margin-top: -5.5vh;
     }
 `
+
+
 export const BarraContainer = styled.div`
-    background: ${props => props.theme.barraBackground};
-    color: ${props => props.theme.containerText};
-    text-align: center;
+    color: ${props => props.theme.black};
     margin-bottom: 4vh;
-    padding: 2vh;
+    header {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+
     img {
         height: 4vh;
         margin-top: 2%;
@@ -118,23 +206,35 @@ export const BarraContainer = styled.div`
     h1 {
         font-size: 3vh;
     }
+
+    button {
+        display: none;
+    }
     @media (min-width: 768px) {
-        margin-bottom: 4vh;
-        padding-top: 4vh;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: right;
-        img {
-            display: none; 
+        header {
+            margin-bottom: 4vh;
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            justify-content:space-between;
         }
+
+        button {
+            display:block ;
+        }
+
+        img {
+            height: 40px;
+        }
+
         h1 {
-            font-size:5vh;
+            font-size:50px;
             text-transform: uppercase;
-            display: none;
+            margin-left: 2rem;
         }
     }
 `
+
 export const ProfileImage = styled.div`
     img {
         display: none;

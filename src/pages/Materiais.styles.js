@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const CylinderContainer = styled.div`
     div {
-        background: ${props => props.theme.containerText};
+        background: ${props => props.theme.blue};
         display: flex;
         align-items: center;
         margin-block: 1vh;
@@ -10,7 +10,7 @@ export const CylinderContainer = styled.div`
         border-top-right-radius: 10vh;
         border-bottom-right-radius: 10vh;
         h2 {
-            color: ${props => props.theme.white};
+            color: ${props => props.theme.black};
             margin-left: auto;
         }
         img {
@@ -25,7 +25,7 @@ export const CylinderContainer = styled.div`
                 width: 10vh;
                 height: 10vh;
                 padding: 2vh;
-                background: #448DE3;
+                background: ${props => props.theme.darkblue};
                 border-radius: 50%;
             }
             h2 {
@@ -37,7 +37,7 @@ export const CylinderContainer = styled.div`
 
 export const CylinderContainer2 = styled.div`
     div {
-        background: ${props => props.theme.containerText};
+        background: ${props => props.theme.blue};
         display: flex;
         align-items: center;
         width: 55%;
@@ -45,7 +45,7 @@ export const CylinderContainer2 = styled.div`
         border-top-left-radius: 10vh;
         border-bottom-left-radius: 10vh;
         h2 {
-            color: ${props => props.theme.white};
+            color: ${props => props.theme.black};
         }
         img {
                 width: 9vh;
@@ -61,7 +61,7 @@ export const CylinderContainer2 = styled.div`
                 height: 10vh;
                 padding: 2vh;
                 margin: 1vh;
-                background: #448DE3;
+                background: ${props => props.theme.darkblue};
                 border-radius: 50%;
             }
             h2 {
