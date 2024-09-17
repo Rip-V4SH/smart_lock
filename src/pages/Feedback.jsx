@@ -6,7 +6,6 @@ import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
 import perfil from "../assets/materiais/perfil.svg"
-import { Link } from "react-router-dom"
 import { BarraContainer, ProfileImage } from "./Feedback.styles";
 import { CardContainer4, FeedbackContainer, UsuariosContainer, Main } from './Feedback.styles'
 import { Link } from 'react-router-dom'
@@ -20,8 +19,8 @@ export function Feedback() {
       <header>
         <h1>Configurações</h1>
         <div className="icons"> 
-          <Link to='/feedback'>
-              <img src={config} alt="engrenagem" />
+          <Link to='/projeto'>
+              <img src={projeto} alt="projeto" />
           </Link>
 
           <Link to='/proposito'>

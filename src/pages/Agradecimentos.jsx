@@ -5,7 +5,6 @@ import comp from '../assets/menu/componentes.svg'
 import cria from '../assets/menu/criadores.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
-import { Link } from "react-router-dom"
 import { CylinderContainer3 } from './Agradecimentos.styles'
 import { CylinderContainer4 } from "./Agradecimentos.styles"
 import { BarraContainer } from "./Barra.styles"
@@ -19,31 +18,6 @@ export function Agradecimentos() {
         <BarraContainer>
           <header>
             <h1>Agradecimentos</h1>
-<<<<<<< HEAD
-            <Link to='/feedback'>
-                <img src={config} alt="engrenagem" />
-            </Link>
-
-            <Link to='/proposito'>
-                <img src={prop} alt="Propósito" />
-            </Link>
-
-            <Link to='/materiais'>
-                <img src={comp} alt="Componentes" />
-            </Link>
-            
-            <Link to='/criadores'>
-                <img src={cria} alt="Criadores" />
-            </Link>
-
-            <Link to='/projeto'>
-                <img src={projeto} alt="projeto" />
-            </Link>
-            
-            <Link to='/bibliografia'>
-                <img src={bio} alt="bibliografia" />
-            </Link>
-=======
             <div className="icons"> 
               <Link to='/feedback'>
                   <img src={config} alt="engrenagem" />
@@ -69,7 +43,6 @@ export function Agradecimentos() {
                 <img src={bio} alt="bibliografia" />
               </Link>
             </div>
->>>>>>> 2885fba (finalizando)
           </header>
         </BarraContainer>
 

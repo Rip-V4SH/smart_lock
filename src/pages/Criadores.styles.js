@@ -5,7 +5,6 @@ export const CardsResponsivity = styled.div`
     flex-direction: column;
     width: auto;
     gap: 5vh;
-    border: solid black;
     @media(min-width: 768px) {
         margin-inline: 0%;
         display: flex;
@@ -18,7 +17,6 @@ export const CardsResponsivity = styled.div`
 `
 
 export const CardsContainer3 = styled.div`
-    border: solid black;
     div {
         background: ${props => props.theme.barraBackground};
         color: ${props => props.theme.white};

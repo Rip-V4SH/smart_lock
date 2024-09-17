@@ -6,14 +6,8 @@ import cria from '../assets/menu/criadores.svg'
 import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
-<<<<<<< HEAD
-import { CardContainer2, CardContainer3, CardImage, ImageBox, ImageBox2, Main } from "./Projeto.styles"
+import { CardContainer2,Cardinfos, CardContainer3, ImageBox, ImageBox2, Main } from "./Projeto.styles"
 import { Link } from "react-router-dom"
-=======
-import { Link } from "react-router-dom"
-import { CardContainer2, CardContainer3, Cardinfos, ImageBox, ImageBox2, Main } from "./Projeto.styles"
-
->>>>>>> 2885fba (finalizando)
 import Menu from "../components/Menu"
 
 export function Projeto() {
@@ -23,31 +17,6 @@ export function Projeto() {
       <BarraContainer>
         <header>
             <h1>Projeto</h1>
-<<<<<<< HEAD
-            <Link to='/feedback'>
-                <img src={config} alt="engrenagem" />
-            </Link>
-
-            <Link to='/proposito'>
-                <img src={prop} alt="Propósito" />
-            </Link>
-
-            <Link to='/materiais'>
-                <img src={comp} alt="Componentes" />
-            </Link>
-
-            <Link to='/agradecimentos'>
-                <img src={agradece} alt="Agradecimentos" />
-            </Link>
-            
-            <Link to='/criadores'>
-                <img src={cria} alt="Criadores" />
-            </Link>
-            
-            <Link to='/bibliografia'>
-                <img src={bio} alt="bibliografia" />
-            </Link>
-=======
             <div className="icons"> 
               <Link to='/feedback'>
                   <img src={config} alt="engrenagem" />
@@ -73,7 +42,6 @@ export function Projeto() {
                   <img src={bio} alt="bibliografia" />
               </Link>
             </div>
->>>>>>> 2885fba (finalizando)
           </header>
       </BarraContainer>
       <Main>

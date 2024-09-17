@@ -11,7 +11,6 @@ import bio from '../assets/menu/bio.svg'
 import { Link } from "react-router-dom"
 import { CardContainer, DivCards } from './Proposito.styles'
 import { BarraContainer} from './Barra.styles'
-import { Link } from 'react-router-dom'
 
 import Menu from "../components/Menu"
 
@@ -21,30 +20,6 @@ export function Proposito() {
         <BarraContainer>
         <header>
             <h1>Propósitos</h1>
-<<<<<<< HEAD
-            <Link to="/feedback">
-                <img src={config} alt="engrenagem" />
-            </Link>
-            <Link to="/materiais">
-                <img src={comp} alt="Componentes" />
-            </Link>
-
-            <Link to="/agradecimentos">
-                <img src={agradece} alt="Agradecimentos" />
-            </Link>
-            
-            <Link to="/criadores">
-                <img src={cria} alt="Criadores" />
-            </Link>
-
-            <Link to="/projeto">
-                <img src={projeto} alt="projeto" />
-            </Link>
-            
-            <Link to="/bibliografia">
-                <img src={bio} alt="bibliografia" />
-            </Link>
-=======
             <div className="icons"> 
             <Link to='/feedback'>
                   <img src={config} alt="engrenagem" />
@@ -70,7 +45,6 @@ export function Proposito() {
                   <img src={bio} alt="bibliografia" />
               </Link>
             </div>
->>>>>>> 2885fba (finalizando)
         </header>
         </BarraContainer>
         <DivCards>

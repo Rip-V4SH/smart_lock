@@ -5,7 +5,6 @@ import cria from '../assets/menu/criadores.svg'
 import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
-import { Link } from "react-router-dom"
 import { BarraContainer } from "./Barra.styles"
 import { BioContainer, BioResponsivity } from './Bibliografia.styles'
 import { Link } from 'react-router-dom'
@@ -18,31 +17,6 @@ export default function Bibliografia() {
         <BarraContainer>
         <header>
           <h1>Referências bibliográficas</h1>
-<<<<<<< HEAD
-          <Link to='/feedback'>
-                <img src={config} alt="engrenagem" />
-            </Link>
-
-            <Link to='/proposito'>
-                <img src={prop} alt="Propósito" />
-            </Link>
-
-            <Link to='/materiais'>
-                <img src={comp} alt="Componentes" />
-            </Link>
-
-            <Link to='/agradecimentos'>
-                <img src={agradece} alt="Agradecimentos" />
-            </Link>
-            
-            <Link to='/criadores'>
-                <img src={cria} alt="Criadores" />
-            </Link>
-
-            <Link to='/projeto'>
-                <img src={projeto} alt="projeto" />
-            </Link>
-=======
           <div className="icons"> 
               <Link to='/feedback'>
                   <img src={config} alt="engrenagem" />
@@ -68,7 +42,6 @@ export default function Bibliografia() {
                 <img src={bio} alt="bibliografia" />
               </Link>
             </div>
->>>>>>> 2885fba (finalizando)
         </header>
         </BarraContainer>
         <BioResponsivity>

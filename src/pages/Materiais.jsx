@@ -14,8 +14,6 @@ import bio from '../assets/menu/bio.svg'
 import { Link } from "react-router-dom"
 import { CylinderContainer, CylinderContainer2 } from './Materiais.styles'
 import { BarraContainer } from "./Barra.styles"
-import { Link } from 'react-router-dom'
-
 import Menu from "../components/Menu"
 
 export function Materiais() {
@@ -24,31 +22,6 @@ export function Materiais() {
       <BarraContainer>
       <header>
         <h1>Materiais</h1>
-<<<<<<< HEAD
-        <Link to='/feedback'>
-                <img src={config} alt="engrenagem" />
-            </Link>
-
-            <Link to='/proposito'>
-                <img src={prop} alt="Propósito" />
-            </Link>
-
-            <Link to='/agradecimentos'>
-                <img src={agradece} alt="Agradecimentos" />
-            </Link>
-            
-            <Link to='/criadores'>
-                <img src={cria} alt="Criadores" />
-            </Link>
-
-            <Link to='/projeto'>
-                <img src={projeto} alt="projeto" />
-            </Link>
-            
-            <Link to='/bibliografia'>
-                <img src={bio} alt="bibliografia" />
-            </Link>
-=======
         <div className="icons"> 
           <Link to='/feedback'>
               <img src={config} alt="engrenagem" />
@@ -74,7 +47,6 @@ export function Materiais() {
             <img src={bio} alt="bibliografia" />
           </Link>
         </div>
->>>>>>> 2885fba (finalizando)
       </header>
       </BarraContainer>
       <CylinderContainer>
