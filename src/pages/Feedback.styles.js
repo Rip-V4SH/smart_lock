@@ -174,7 +174,6 @@ export const FeedbackContainer = styled.div`
         }
     }
 `
-
 export const UsuariosContainer = styled.div`
     background: ${props => props.theme.boxColor};
     border: 0.5vh solid ${props => props.theme.barraBackground};
