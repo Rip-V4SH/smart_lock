@@ -75,7 +75,7 @@ export const ImageBox2 = styled.div`
         color: ${props => props.theme.containerText};
         display: flex;
         text-align: center;
-        padding: 22%;
+        padding: 15%;
         border-radius: 2vh;
         display: none;
         @media (min-width: 768px) {

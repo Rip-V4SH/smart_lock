@@ -132,7 +132,7 @@ export const FeedbackContainer = styled.div`
         color: ${props => props.theme.black};
         display: flex;
         width: 90%;
-        padding-bottom: 70%;
+        padding-bottom: 55%;
         margin-left: 5%;
         border-radius: 2vh;
         border: none;

@@ -20,9 +20,8 @@ export const CardsContainer3 = styled.div`
     div {
         background: ${props => props.theme.barraBackground};
         color: ${props => props.theme.white};
-        padding: 2%;
+        padding: 20%;
         width: 25vh;
-        height: auto;
         margin: 0vh 2vh 0vh 2vh;
         text-align: center;
         border-radius: 2vh;
@@ -35,6 +34,11 @@ export const CardsContainer3 = styled.div`
         h2 {
             background-color: ${props => props.theme.white};
             color: ${props => props.theme.black};
+            border-radius: 2rem;
+        }
+        button {
+            border: 0;
+            background: ${props => props.theme.barraBackground};
             border-radius: 2rem;
         }
         @media (min-width: 768px) {
