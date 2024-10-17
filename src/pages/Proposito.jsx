@@ -65,7 +65,7 @@ export function Proposito() {
             <CardContainer>
             <div>
                 <h2>INTEGRAÇÕES</h2>
-                <p>Um quesito obrigatório, aliado importante para o andamento e funcionamento total da Smart Lock, já que o uso do Wi-fi e o do SMS será um agente essencial e indispensável para o decorrer do processo, sendo eles, o aplicativo e as conexões via wi-fi.</p>
+                <p>Um quesito obrigatório, aliado importante para o andamento e funcionamento total da Smart Lock, já que o uso do Bluetooth será um agente essencial e indispensável como no cadastro de digitais.</p>
                 <img src={nuvem} alt="Nuvemzinha" />
             </div>
             </CardContainer>

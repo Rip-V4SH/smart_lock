@@ -63,8 +63,8 @@ export function Projeto() {
           <CardContainer3>
               <div>
                 <h2>Aplicativo</h2>
-                <p>O aplicativo  terá conexão Wi-Fi com o Smart Lock e será usado para:</p>
-                <p>Cadastro de digitais;</p>
+                <p>O aplicativo  terá conexão bluetooth com o Smart Lock e será usado para:</p>
+                <p>Cadastro e exclusão de digitais;</p>
                 <p>Monitoramento de camera 24 horas;</p>
                 <p>Alarme;</p>
                 <p>Personalização do led.</p>

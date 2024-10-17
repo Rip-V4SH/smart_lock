@@ -48,26 +48,26 @@ export function Agradecimentos() {
 
           <CylinderContainer3>
           <div>
-            <h2>Nome</h2>
+            <h2>Plínio</h2>
             <img src={image} alt="" />
           </div>
           </CylinderContainer3>
          <CylinderContainer4>
         <div>
           <img src={image} alt="" />
-          <h2>Nome</h2>
+          <h2>Márcio</h2>
         </div>
         </CylinderContainer4>
           <CylinderContainer3>
           <div>
-            <h2>Nome</h2>
+            <h2>Benones</h2>
             <img src={image} alt="" />
           </div>
           </CylinderContainer3>
         <CylinderContainer4>
         <div>
           <img src={image} alt="" />
-          <h2>Nome</h2>
+          <h2>Wesley</h2>
         </div>
         </CylinderContainer4>
     </section>

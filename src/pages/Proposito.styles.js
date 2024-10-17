@@ -13,28 +13,13 @@ export const CardContainer = styled.div`
             text-align: justify;
         }
         @media(min-width: 768px) {
-            height: 60vh;
-            width: 25vh;
-            margin-inline: 2vh; 
-            margin: 0%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 10%;
-            padding-top: 2%;
-            width: auto;
-            height: 100%;
-            h2 {
-                font-size: 30px;
-            }
-            p {
-                font-size: 20px;
-                margin-bottom: 10rem;
-            }
             img {
                 height: 70px;
                 width: 70px;
-                margin: 20%;
+                margin-top: 6rem;
+            }
+            p {
+                font-size: 1.2rem;
             }
 
         }

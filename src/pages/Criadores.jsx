@@ -1,73 +1,98 @@
-import config from '../assets/menu/config.svg'
-import prop from '../assets/menu/proposito.svg'
-import comp from '../assets/menu/componentes.svg'
-import cria from '../assets/menu/criadores.svg'
-import agradece from '../assets/menu/agradecimentos.svg'
-import projeto from '../assets/menu/projeto.svg'
-import bio from '../assets/menu/bio.svg'
-import image2 from "../assets/materiais/image2.svg"
-import { Link } from "react-router-dom"
-import { BarraContainer } from "./Barra.styles"
-import { CardsContainer3, CardsResponsivity } from './Criadores.styles'
-import Menu from "../components/Menu"
+import React, { useState } from 'react';
+import config from '../assets/menu/config.svg';
+import prop from '../assets/menu/proposito.svg';
+import comp from '../assets/menu/componentes.svg';
+import cria from '../assets/menu/criadores.svg';
+import agradece from '../assets/menu/agradecimentos.svg';
+import projeto from '../assets/menu/projeto.svg';
+import bio from '../assets/menu/bio.svg';
+import image2 from "../assets/materiais/image2.svg";
+import { Link } from "react-router-dom";
+import { BarraContainer } from "./Barra.styles";
+import { CardsContainer3, CardsResponsivity, ExpandableContent } from './Criadores.styles';
+import Menu from "../components/Menu";
 
 export function Criadores() {
+  const [expanded, setExpanded] = useState(null);
+
+  const handleToggle = (name) => {
+    setExpanded(prevState => (prevState === name ? null : name));
+  };
+
   return (
     <section>
-        <BarraContainer>
-          <header>
-            <h1>Desenvolvedores</h1>
-            <div className="icons"> 
-              <Link to='/feedback'>
-                  <img src={config} alt="engrenagem" />
-              </Link>
+      <BarraContainer>
+        <header>
+          <h1>Desenvolvedores</h1>
+          <div className="icons">
+            <Link to='/feedback'>
+              <img src={config} alt="engrenagem" />
+            </Link>
+            <Link to='/proposito'>
+              <img src={prop} alt="Propósito" />
+            </Link>
+            <Link to='/materiais'>
+              <img src={comp} alt="Componentes" />
+            </Link>
+            <Link to='/agradecimentos'>
+              <img src={agradece} alt="Agradecimentos" />
+            </Link>
+            <Link to='/projeto'>
+              <img src={projeto} alt="Projeto" />
+            </Link>
+            <Link to='/bibliografia'>
+              <img src={bio} alt="bibliografia" />
+            </Link>
+          </div>
+        </header>
+      </BarraContainer>
 
-              <Link to='/proposito'>
-                <img src={prop} alt="Propósito" />
-              </Link>
+      <CardsResponsivity>
+        <CardsContainer3>
+          <div>
+            <img src={image2} alt="Arthur Lima" />
+            <h2>Arthur Lima</h2>
+            <button onClick={() => handleToggle('arthur')}>
+              {expanded === 'arthur' ? 'Ver menos' : 'Ver mais'}
+            </button>
+            {expanded === 'arthur' && (
+              <ExpandableContent>
+                <p>Programador líder, responsável pelo desenvolvimento do site, tanto design quanto funcionalidade.</p>
+              </ExpandableContent>
+            )}
+          </div>
+        </CardsContainer3>
 
-              <Link to='/materiais'>
-                <img src={comp} alt="Componentes" />
-              </Link>
+        <CardsContainer3>
+          <div>
+            <img src={image2} alt="Igor Fernandes" />
+            <h2>Igor Fernandes</h2>
+            <button onClick={() => handleToggle('igor')}>
+              {expanded === 'igor' ? 'Ver menos' : 'Ver mais'}
+            </button>
+            {expanded === 'igor' && (
+              <ExpandableContent>
+                <p>Programador co-líder, responsável por sugestões ao site e nos textos.</p>
+              </ExpandableContent>
+            )}
+          </div>
+        </CardsContainer3>
 
-              <Link to='/agradecimentos'>
-                <img src={agradece} alt="Agradecimentos" />
-              </Link>
-              
-              <Link to='/projeto'>
-                <img src={projeto} alt="Projeto" />
-              </Link>
-              
-              <Link to='/bibliografia'>
-                <img src={bio} alt="bibliografia" />
-              </Link>
-            </div>
-          </header>
-        </BarraContainer>
-        <CardsResponsivity>
-          <CardsContainer3>
-            <div>
-              <img src={image2} alt="" />
-              <h2>Arthur Lima</h2>
-              <button href="">Ver mais</button>
-            </div>
-            </CardsContainer3>
-            <CardsContainer3>
-            <div>
-              <img src={image2} alt="" />
-              <h2>Igor Fernandes</h2>
-              <button href="">Ver mais</button>
-            </div>
-            </CardsContainer3>
-            <CardsContainer3>
-            <div>
-              <img src={image2} alt="" />
-              <h2>Felipe Vaz</h2>
-              <button href="">Ver mais</button>
-            </div>
-          </CardsContainer3>
-        </CardsResponsivity>
+        <CardsContainer3>
+          <div>
+            <img src={image2} alt="Felipe Vaz" />
+            <h2>Felipe Vaz</h2>
+            <button onClick={() => handleToggle('felipe')}>
+              {expanded === 'felipe' ? 'Ver menos' : 'Ver mais'}
+            </button>
+            {expanded === 'felipe' && (
+              <ExpandableContent>
+                <p>Programador co-líder, responsável pela paleta de cores, trazendo uma ideia minimalista.</p>
+              </ExpandableContent>
+            )}
+          </div>
+        </CardsContainer3>
+      </CardsResponsivity>
     </section>
-    
-  )
+  );
 }
