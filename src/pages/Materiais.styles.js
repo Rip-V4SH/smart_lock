@@ -52,6 +52,7 @@ export const CylinderContainer2 = styled.div`
       height: 9vh;
       padding: 1vh;
       margin-left: 2vh;
+      margin: 0.5rem;
     }
     
     h2 {
@@ -62,14 +63,13 @@ export const CylinderContainer2 = styled.div`
     
     @media (min-width: 768px) {
       width: 50%;
-      padding: 1vh;
       margin-left: 50%;
       
       img {
         width: 10vh;
         height: 10vh;
         padding: 2vh;
-        margin-left: 0.5vh;
+        margin-left: 1.5vh;
         background: ${props => props.theme.darkblue};
         border-radius: 50%;
       }

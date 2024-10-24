@@ -12,6 +12,11 @@ export const CardContainer = styled.div`
             margin-top: 2vh;
             text-align: justify;
         }
+        img {
+            height: 5rem;
+            width: 5rem;
+            margin-top: 1rem;
+        }
         @media(min-width: 768px) {
             img {
                 height: 70px;

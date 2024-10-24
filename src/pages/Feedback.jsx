@@ -43,9 +43,6 @@ export function Feedback() {
             <img src={bio} alt="bibliografia" />
           </Link>
         </div>
-        <button>
-          <img src={perfil} alt="Profile Image" />
-        </button>
       </header>
       </BarraContainer>
       <Main>
@@ -58,22 +55,6 @@ export function Feedback() {
                 <button className='dark-mode-toggle'>
                   <img src="" alt="" />
                 </button>
-              </div>
-              <div className='senha'>
-                <h1>Senha:</h1>
-                <input type="text" placeholder='Digite Aqui' />
-              </div>
-              <div className="email">
-                <h1>Email:</h1>
-                <input type="text" placeholder='Digite Aqui' />
-              </div>
-              <div className="data">
-                <h1>Data de Nac.:</h1>
-                <input type="text" placeholder='Digite Aqui' />
-              </div>
-              <div className="telefone">
-                <h1>Telefone:</h1>
-                <input type="text" placeholder='Digite Aqui' />
               </div>
             </UsuariosContainer>
           </div>

@@ -5,7 +5,7 @@ export const CardContainer4 = styled.div`
         background: ${props => props.theme.white};
         width: auto;
         height: auto;
-
+        
         .darkmode {
             display: flex;
             background: ${props => props.theme.blue};
@@ -132,7 +132,7 @@ export const FeedbackContainer = styled.div`
         color: ${props => props.theme.black};
         display: flex;
         width: 90%;
-        padding-bottom: 55%;
+        padding-bottom: 45%;
         margin-left: 5%;
         border-radius: 2vh;
         border: none;

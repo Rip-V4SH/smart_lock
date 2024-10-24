@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CardsResponsivity = styled.div`
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 2rem;
   gap: 5vh;
   
   @media (min-width: 768px) {
@@ -22,7 +22,7 @@ export const CardsContainer3 = styled.div`
     background: ${props => props.theme.barraBackground};
     color: ${props => props.theme.white};
     padding: 20%;
-    width: 25vh; /* Ajuste a largura conforme necessário */
+    width: 25vh;
     margin: 0vh 2vh 0vh 2vh;
     text-align: center;
     border-radius: 2vh;
