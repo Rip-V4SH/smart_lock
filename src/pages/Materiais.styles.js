@@ -25,8 +25,8 @@ export const CylinderContainer = styled.div`
         width: 10vh;
         height: 10vh;
         padding: 2vh;
-        background: ${props => props.theme.darkblue};
         border-radius: 50%;
+        background: ${props => props.theme.darkblue};
       }
       h2 {
         margin-left: auto;
