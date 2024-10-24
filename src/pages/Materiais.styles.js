@@ -58,7 +58,7 @@ export const CylinderContainer2 = styled.div`
     h2 {
       order: 2; 
       color: ${props => props.theme.black};
-      margin-right: 2vh;
+      margin-right: auto;
     }
     
     @media (min-width: 768px) {
@@ -69,7 +69,7 @@ export const CylinderContainer2 = styled.div`
         width: 10vh;
         height: 10vh;
         padding: 2vh;
-        margin-left: 1.5vh;
+        margin-left: 1vh;
         background: ${props => props.theme.darkblue};
         border-radius: 50%;
       }

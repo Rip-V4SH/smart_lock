@@ -5,8 +5,9 @@ import cria from '../assets/menu/criadores.svg'
 import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
+import { BarraContainer } from "./Barra.styles";
 import perfil from "../assets/materiais/perfil.svg"
-import { BarraContainer, ProfileImage } from "./Feedback.styles";
+import { ProfileImage } from "./Feedback.styles";
 import { CardContainer4, FeedbackContainer, UsuariosContainer, Main } from './Feedback.styles'
 import { Link } from 'react-router-dom'
 
@@ -48,7 +49,6 @@ export function Feedback() {
       <Main>
         <CardContainer4>
           <div>
-            <img src={perfil} alt="" />
             <UsuariosContainer>
             <div className='darkmode'>
                 <h1>Modo Escuro</h1>

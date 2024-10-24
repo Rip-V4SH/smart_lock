@@ -136,6 +136,7 @@ export const FeedbackContainer = styled.div`
         margin-left: 5%;
         border-radius: 2vh;
         border: none;
+        outline: none;
     }
     button {
         background: ${props => props.theme.darkblue};
