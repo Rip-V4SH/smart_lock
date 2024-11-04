@@ -57,10 +57,10 @@ export function Materiais() {
       content: 'O Sensor PIR (Passive Infrared Sensor) detecta movimento ao medir variações na radiação infravermelha de objetos. É amplamente utilizado em sistemas de segurança e automação residencial. O sensor possui três pinos: alimentação, terra e saída, que se ativa com o movimento. No Brasil, seu preço varia de R$ 20 a R$ 50, enquanto nos EUA, fica entre $5 e $15.' 
     },
     { 
-      title: 'Câmera', 
+      title: 'Ultrassônico', 
       imgSrc: cam, 
       altText: 'camera', 
-      content: 'Uma mini câmera para Arduino é usada para capturar fotos ou vídeos em projetos de monitoramento, segurança e robótica. Compatível com a plataforma Arduino, é fácil de integrar em projetos de eletrônica. No Brasil, custa entre R$ 50 e R$ 150, enquanto nos EUA varia de $10 a $30.' 
+      content: 'Um sensor ultrassônico para Arduino é utilizado para medir distâncias com precisão em projetos de automação, robótica e monitoramento de proximidade. Ele funciona emitindo ondas sonoras e medindo o tempo que leva para o eco retornar, permitindo calcular a distância até um objeto. Compatível com a plataforma Arduino, é fácil de integrar em projetos de eletrônica. No Brasil, o custo varia entre R$ 20 e R$ 60, enquanto nos EUA fica entre $5 e $15.' 
     },
     { 
       title: 'Sensor Biométrico', 

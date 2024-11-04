@@ -59,6 +59,8 @@ export default function Bibliografia() {
             <p>
               Assim, a convergência entre Segurança da Informação, automação residencial e avanços em tecnologias biométricas evidencia uma transformação no modo como interagimos com nossos espaços residenciais e profissionais. Estamos caminhando para um futuro onde a integração inteligente de sistemas não apenas aumenta a comodidade, mas também fortalece a proteção de dados e a eficiência dos ambientes que habitamos e trabalhamos.
             </p>
+            <p>.</p>
+            <a href="https://drive.google.com/file/d/1XFi7v90nMgWuyXdYt2k4YRFyPL43OvtU/view?usp=sharing">Trailer: Deep Dystopia</a>
         </div>
         </BioContainer>
         </BioResponsivity>

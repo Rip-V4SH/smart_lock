@@ -53,21 +53,19 @@ export function Projeto() {
         <Cardinfos>
           <CardContainer2>
             <div>
-              <p>Nós trazemos segurança para sua casa com o melhor custo-beneficio, a nossa maçaneta tem leitor biometrico e camera. 
-                Assim você terá: </p>
-                <p>O controle de pessoas;</p>
-                <p>Alarme que irá alertar no aplicativo, além de comunicar a emergencia;</p>
-                <p>Facilidade com o acesso diario.</p>
+              <p>
+              Com a nossa maçaneta com leitor biométrico, você traz segurança para sua casa sem comprometer o seu orçamento. Com ela, você terá:</p>
+                <p>Controle total sobre quem entra e sai;</p>
+                <p>Um alarme que avisa diretamente no seu aplicativo, além de comunicar situações de emergência;
+                </p>
+                <p>Facilidade de acesso no seu dia a dia, tornando a rotina mais prática e segura.</p>
             </div>
           </CardContainer2>
           <CardContainer3>
               <div>
                 <h2>Aplicativo</h2>
-                <p>O aplicativo  terá conexão bluetooth com o Smart Lock e será usado para:</p>
-                <p>Cadastro e exclusão de digitais;</p>
-                <p>Monitoramento de camera 24 horas;</p>
-                <p>Alarme;</p>
-                <p>Personalização do led.</p>
+                <p>
+                Nosso aplicativo garante a segurança da sua casa com recursos essenciais: você pode ligar diretamente para a emergência, o alarme é ativado em tentativas de invasão e o sistema detecta presenças suspeitas. Com ele, a proteção da sua residência está sempre ao seu alcance!</p>
               </div>
             </CardContainer3>
         </Cardinfos>

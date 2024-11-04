@@ -18,10 +18,11 @@ export const CardContainer = styled.div`
             margin-top: 1rem;
         }
         @media(min-width: 768px) {
+            
             img {
+                margin-top: 6rem;
                 height: 70px;
                 width: 70px;
-                margin-top: 6rem;
             }
             p {
                 font-size: 1.2rem;
@@ -29,8 +30,8 @@ export const CardContainer = styled.div`
 
         }
         @media(min-width: 1024px) {
-            height: 60vh;
-            width: 30vh;
+            height: 70vh;
+            width: 40vh;
             margin-inline: 5vh;
         }
     }

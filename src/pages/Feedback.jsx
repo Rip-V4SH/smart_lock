@@ -47,18 +47,6 @@ export function Feedback() {
       </header>
       </BarraContainer>
       <Main>
-        <CardContainer4>
-          <div>
-            <UsuariosContainer>
-            <div className='darkmode'>
-                <h1>Modo Escuro</h1>
-                <button className='dark-mode-toggle'>
-                  <img src="" alt="" />
-                </button>
-              </div>
-            </UsuariosContainer>
-          </div>
-        </CardContainer4>
         <FeedbackContainer>
           <div>
           <h1>Feedback</h1>
