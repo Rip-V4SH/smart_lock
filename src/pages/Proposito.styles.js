@@ -13,14 +13,14 @@ export const CardContainer = styled.div`
             text-align: justify;
         }
         img {
-            height: 5rem;
-            width: 5rem;
+            height: 4rem;
+            width: 4rem;
             margin-top: 1rem;
         }
         @media(min-width: 768px) {
             
             img {
-                margin-top: 6rem;
+                margin-top: 40%;
                 height: 70px;
                 width: 70px;
             }
@@ -30,7 +30,7 @@ export const CardContainer = styled.div`
 
         }
         @media(min-width: 1024px) {
-            height: 70vh;
+            height: 60vh;
             width: 40vh;
             margin-inline: 5vh;
         }
