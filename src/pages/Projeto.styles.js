@@ -37,6 +37,7 @@ export const CardContainer3 = styled.div `
         padding: 1.2vh;
         border-radius: 0vh 0vh 2vh 2vh;
         text-align: justify;
+        margin-bottom: 1rem;
         h2 {
             color: ${props => props.theme.black};
             margin-block: 1vh;
@@ -58,32 +59,21 @@ export const CardContainer3 = styled.div `
 `
 
 
-export const ImageBox = styled.div`
-    background: ${props => props.theme.boxColor};
-    color: ${props => props.theme.containerText};
-    margin: 0% 5% 5% 5%;
-    text-align: center;
-    padding: 25%;
-    border-radius: 2vh;
-    @media (min-width: 768px) {
-        display: none;
-    }
-`
 export const ImageBox2 = styled.div`
-    div {
-        background: ${props => props.theme.boxColor};
-        color: ${props => props.theme.containerText};
-        display: flex;
-        text-align: center;
-        padding: 15%;
-        border-radius: 2vh;
-        display: none;
         @media (min-width: 768px) {
             display: block;
             margin: 1% 5% 0% 5%;
             width: auto;
         }
-    }
+
+        img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2rem;
+            margin-bottom: 2rem;
+        }
 `
 export const Main = styled.div`
     display: flex;

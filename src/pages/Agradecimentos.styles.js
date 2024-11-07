@@ -19,6 +19,7 @@ export const CylinderContainer3 = styled.div`
             height: 7vh;
             width: 7vh;
             margin: 1vh;
+            border-radius: 50rem;
         }
         @media (min-width: 768px) {
             flex-direction: row-reverse;
@@ -30,6 +31,7 @@ export const CylinderContainer3 = styled.div`
                 height: 12vh;
                 width: 12vh;
                 margin: 0.7vh;
+                border-radius: 50rem;
             }
             h2 {
                 margin-left: 0%;
@@ -64,6 +66,7 @@ export const CylinderContainer4 = styled.div `
             height: 7vh;
             width: 7vh;
             margin: 1vh;
+            border-radius: 50rem;
         }
         @media (min-width: 768px) {
             flex-direction: row-reverse;

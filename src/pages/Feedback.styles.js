@@ -1,22 +1,7 @@
 import styled from "styled-components"
 
 export const CardContainer4 = styled.div`
-    div {
-        background: ${props => props.theme.white};
-        width: auto;
-        height: auto;
-        
-        .darkmode {
-            display: flex;
-            background: ${props => props.theme.blue};
-            color: ${props => props.theme.black};
-            padding: 2vh;
-            margin: 1%;
-            border-radius: 2vh;
-            margin-bottom: 1.2vh;
-            width: auto;
-            gap: 1rem;
-            button {
+    button {
                 width: 30px;
                 height: 30px;
                 padding: 1rem;
@@ -24,7 +9,19 @@ export const CardContainer4 = styled.div`
                 border-radius: 50%;
                 cursor: pointer;
             }
-        }
+
+            .darkmode {
+                display: flex;
+                background: ${props => props.theme.blue};
+                color: ${props => props.theme.black};
+                padding: 2vh;
+                margin: 1%;
+                border-radius: 2vh;
+                margin-bottom: 1.2vh;
+                width: auto;
+                gap: 1rem;
+                }
+        
 
         .senha {
             display: flex;
@@ -101,7 +98,6 @@ export const CardContainer4 = styled.div`
                 display: none;
             }
         }
-    }
 `
 export const FeedbackContainer = styled.div`
     background: ${props => props.theme.blue};

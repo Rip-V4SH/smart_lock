@@ -26,7 +26,11 @@ export function Proposito() {
               </Link>
 
               <Link to='/projeto'>
-                  <img src={projeto} alt="Projeto" />
+                  <img src={projeto} alt="projeto" />
+              </Link>
+
+              <Link to='/proposito'>
+                  <img src={prop} alt="Propósito" />
               </Link>
 
               <Link to='/materiais'>

@@ -22,24 +22,28 @@ export default function Bibliografia() {
                   <img src={config} alt="engrenagem" />
               </Link>
 
+              <Link to='/projeto'>
+                  <img src={projeto} alt="projeto" />
+              </Link>
+
               <Link to='/proposito'>
-                <img src={prop} alt="Propósito" />
+                  <img src={prop} alt="Propósito" />
               </Link>
 
               <Link to='/materiais'>
-                <img src={comp} alt="Componentes" />
+                  <img src={comp} alt="Componentes" />
               </Link>
 
               <Link to='/agradecimentos'>
-                <img src={agradece} alt="Agradecimentos" />
+                  <img src={agradece} alt="Agradecimentos" />
               </Link>
               
               <Link to='/criadores'>
-                <img src={cria} alt="Criadores" />
+                  <img src={cria} alt="Criadores" />
               </Link>
               
               <Link to='/bibliografia'>
-                <img src={bio} alt="bibliografia" />
+                  <img src={bio} alt="bibliografia" />
               </Link>
             </div>
         </header>

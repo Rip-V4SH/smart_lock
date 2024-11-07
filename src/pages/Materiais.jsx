@@ -18,7 +18,6 @@ import agradece from '../assets/menu/agradecimentos.svg';
 import projeto from '../assets/menu/projeto.svg';
 import bio from '../assets/menu/bio.svg';
 
-// Componente para os itens de materiais
 const MaterialItem = ({ title, imgSrc, altText, onClick, isEven }) => {
   const Container = isEven ? CylinderContainer2 : CylinderContainer;
   return (
@@ -92,25 +91,29 @@ export function Materiais() {
               <img src={config} alt="engrenagem" />
             </Link>
 
-            <Link to='/proposito'>
-              <img src={prop} alt="Propósito" />
-            </Link>
-
             <Link to='/projeto'>
-              <img src={projeto} alt="Projeto" />
-            </Link>
+                  <img src={projeto} alt="projeto" />
+              </Link>
 
-            <Link to='/agradecimentos'>
-              <img src={agradece} alt="Agradecimentos" />
-            </Link>
+              <Link to='/proposito'>
+                  <img src={prop} alt="Propósito" />
+              </Link>
 
-            <Link to='/criadores'>
-              <img src={cria} alt="Criadores" />
-            </Link>
+              <Link to='/materiais'>
+                  <img src={comp} alt="Componentes" />
+              </Link>
 
-            <Link to='/bibliografia'>
-              <img src={bio} alt="Bibliografia" />
-            </Link>
+              <Link to='/agradecimentos'>
+                  <img src={agradece} alt="Agradecimentos" />
+              </Link>
+              
+              <Link to='/criadores'>
+                  <img src={cria} alt="Criadores" />
+              </Link>
+              
+              <Link to='/bibliografia'>
+                  <img src={bio} alt="bibliografia" />
+              </Link>
           </div>
         </header>
       </BarraContainer>

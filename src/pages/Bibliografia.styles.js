@@ -9,6 +9,7 @@ export const BioContainer = styled.div`
     text-align: justify;
     border-radius: 2vh;
     margin-top: 0;
+    margin-bottom: 0;
 `
 
 export const BioResponsivity = styled.div`

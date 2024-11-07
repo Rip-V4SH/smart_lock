@@ -15,6 +15,7 @@ export const CardsResponsivity = styled.div`
     padding-inline: 15%;
     gap: 2rem;
   }
+
 `;
 
 export const CardsContainer3 = styled.div`
@@ -30,6 +31,9 @@ export const CardsContainer3 = styled.div`
     flex-direction: column;
     gap: 2rem;
 
+    img {
+      border-radius: 2rem;
+    }
     a {
       color: ${props => props.theme.background};
     }
@@ -65,6 +69,7 @@ export const CardsContainer3 = styled.div`
       img {
         width: 30vh;
         margin: 1vh;
+        border-radius: 2rem;
       }
     }
   }
