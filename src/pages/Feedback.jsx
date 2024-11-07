@@ -54,7 +54,7 @@ export function Feedback() {
                             <h1 style={{ backgroundColor: escuro ? "#364156" : "", color: escuro ? "white" : "black" }}>Feedback</h1>
                             <h2 style={{ backgroundColor: escuro ? "#364156" : "", color: escuro ? "white" : "black" }}>Escreva sua opinião sobre o site:</h2>
                             <p style={{ backgroundColor: escuro ? "#364156" : "", color: escuro ? "white" : "black" }}>Deixe sua crítica construtiva, seu apoio, sua sugestão para que possamos melhorar!</p>
-                            <input type="text" placeholder='Digite aqui...' style={{ backgroundColor: escuro ? "#011638" : "#FFFFFF", color: escuro ? "white" : "black" }} />
+                            <input style={{ backgroundColor: escuro ? "#011638" : "#FFFFFF", color: escuro ? "black" : "white" }} type="text" placeholder ='Digite aqui...' />
                             <button style={{ backgroundColor: escuro ? "#011638" : "", color: escuro ? "white" : "black" }}>Enviar</button>
                         </div>
                     </FeedbackContainer>
