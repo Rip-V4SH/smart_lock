@@ -1,8 +1,9 @@
 import styled from "styled-components"
 
 export const BarraContainer = styled.div`
-    color: ${props => props.theme.black};
+    color: ${props => props.theme.white};
     margin-bottom: 4vh;
+    margin-right: 1rem;
     header {
         display: flex;
         flex-direction:column;

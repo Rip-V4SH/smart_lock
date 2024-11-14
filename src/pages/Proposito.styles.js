@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const CardContainer = styled.div`
     div {
-        background: ${props => props.theme.blue};
-        color: ${props => props.theme.black};
+        background: ${props => props.theme.bluedgrey};
+        color: ${props => props.theme.white};
         padding: 5%;
         margin: 10%;
         text-align: center;

@@ -20,7 +20,7 @@ export const CardsResponsivity = styled.div`
 
 export const CardsContainer3 = styled.div`
   div {
-    background: ${props => props.theme.barraBackground};
+    background: ${props => props.theme.bluedgrey};
     color: ${props => props.theme.white};
     padding: 20%;
     width: 25vh;
@@ -39,15 +39,15 @@ export const CardsContainer3 = styled.div`
     }
 
     h2 {
-      background-color: ${props => props.theme.white};
-      color: ${props => props.theme.black};
+      color: ${props => props.theme.white};
       border-radius: 2rem;
       padding: 0.5rem;
     }
 
     button {
       border: 0;
-      background: ${props => props.theme.barraBackground};
+      background: ${props => props.theme.OxfordBlue};
+      color: ${props => props.theme.white};
       border-radius: 2rem;
       padding: 0.5rem;
       margin-bottom: 1rem;

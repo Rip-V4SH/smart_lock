@@ -8,6 +8,7 @@ import cria from '../assets/menu/criadores.svg'
 import agradece from '../assets/menu/agradecimentos.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
+import { IconContainer } from "./Icon.styles";
 import { Link } from "react-router-dom"
 import { CardContainer, DivCards } from './Proposito.styles'
 import { BarraContainer} from './Barra.styles'
@@ -19,38 +20,53 @@ export function Proposito() {
     <section>
         <BarraContainer>
         <header>
-            <h1>Propósitos</h1>
-            <div className="icons"> 
+          <h1>PROPÓSITOS</h1>
+          <div className="icons">
             <Link to='/feedback'>
-                  <img src={config} alt="engrenagem" />
-              </Link>
-
-              <Link to='/projeto'>
-                  <img src={projeto} alt="projeto" />
-              </Link>
-
-              <Link to='/proposito'>
-                  <img src={prop} alt="Propósito" />
-              </Link>
-
-              <Link to='/materiais'>
-                  <img src={comp} alt="Componentes" />
-              </Link>
-
-              <Link to='/agradecimentos'>
-                  <img src={agradece} alt="Agradecimentos" />
-              </Link>
-              
-              <Link to='/criadores'>
-                  <img src={cria} alt="Criadores" />
-              </Link>
-              
-              <Link to='/bibliografia'>
-                  <img src={bio} alt="bibliografia" />
-              </Link>
-            </div>
+              <IconContainer>
+                <img src={config} alt="engrenagem" />
+                <div className="hover-text">Feedback</div>
+              </IconContainer>
+            </Link>
+            <Link to='/projeto'>
+              <IconContainer>
+                <img src={projeto} alt="projeto" />
+                <div className="hover-text">Projeto</div>
+              </IconContainer>
+            </Link>
+            <Link to='/proposito'>
+              <IconContainer>
+                <img src={prop} alt="Propósito" />
+                <div className="hover-text">Propósito</div>
+              </IconContainer>
+            </Link>
+            <Link to='/materiais'>
+              <IconContainer>
+                <img src={comp} alt="Componentes" />
+                <div className="hover-text">Componentes</div>
+              </IconContainer>
+            </Link>
+            <Link to='/agradecimentos'>
+              <IconContainer>
+                <img src={agradece} alt="Agradecimentos" />
+                <div className="hover-text">Agradecimentos</div>
+              </IconContainer>
+            </Link>
+            <Link to='/criadores'>
+              <IconContainer>
+                <img src={cria} alt="Criadores" />
+                <div className="hover-text">Criadores</div>
+              </IconContainer>
+            </Link>
+            <Link to='/bibliografia'>
+              <IconContainer>
+                <img src={bio} alt="Bibliografia" />
+                <div className="hover-text">Bibliografia</div>
+              </IconContainer>
+            </Link>
+          </div>
         </header>
-        </BarraContainer>
+      </BarraContainer>
         <DivCards>
             <CardContainer>
             <div>

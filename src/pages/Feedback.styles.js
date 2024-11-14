@@ -1,112 +1,13 @@
 import styled from "styled-components"
 
-export const CardContainer4 = styled.div`
-    button {
-                width: 30px;
-                height: 30px;
-                padding: 1rem;
-                border: none;
-                border-radius: 50%;
-                cursor: pointer;
-            }
-
-            .darkmode {
-                display: flex;
-                background: ${props => props.theme.blue};
-                color: ${props => props.theme.black};
-                padding: 2vh;
-                margin: 1%;
-                border-radius: 2vh;
-                margin-bottom: 1.2vh;
-                width: auto;
-                gap: 1rem;
-                }
-        
-
-        .senha {
-            display: flex;
-            background: ${props => props.theme.blue};
-            color: ${props => props.theme.black};
-            padding: 2vh;
-            margin: 1%;
-            border-radius: 2vh;
-            margin-bottom: 1.2vh;
-            width: auto;
-            gap: 1rem;
-            input {
-                background: none;
-                border: none;
-            }
-        }
-
-        .email {
-            display: flex;
-            background: ${props => props.theme.blue};
-            color: ${props => props.theme.black};
-            padding: 2vh;
-            margin: 1%;
-            border-radius: 2vh;
-            margin-bottom: 1.2vh;
-            width: auto;
-            gap: 1rem;
-            input {
-                background: none;
-                border: none;
-            }
-        }
-
-        .data {
-            display: flex;
-            background: ${props => props.theme.blue};
-            color: ${props => props.theme.black};
-            padding: 2vh;
-            margin: 1%;
-            border-radius: 2vh;
-            margin-bottom: 1.2vh;
-            width: auto;
-            gap: 1rem;
-            input {
-                background: none;
-                border: none;
-            }
-        }
-
-        .telefone {
-            display: flex;
-            background: ${props => props.theme.blue};
-            color: ${props => props.theme.black};
-            padding: 2vh;
-            margin: 1%;
-            border-radius: 2vh;
-            margin-bottom: 1.2vh;
-            width: auto;
-            gap: 1rem;
-            input {
-                background: none;
-                border: none;
-            }
-        }
-
-        img {
-            margin-block: 2vh;
-            margin-left: 80%
-        }
-        @media (min-width: 768px) {
-            width: 40vh;
-            margin-right: 5vh;
-            img {
-                display: none;
-            }
-        }
-`
 export const FeedbackContainer = styled.div`
-    background: ${props => props.theme.blue};
+    background: ${props => props.theme.bluedgrey};
     margin: 3%;
     margin-block: 2vh;
     border-radius: 3vh;
     padding: 0.1vh;
     h1 {
-        color: ${props => props.theme.black};
+        color: ${props => props.theme.white};
         font-size: 24px;
         padding: 0.5vh;
         margin: 3%;
@@ -114,29 +15,30 @@ export const FeedbackContainer = styled.div`
         text-align: center;
     }
     h2 {
-        color: ${props => props.theme.black};
+        color: ${props => props.theme.white};
         margin-inline: 5%;
     }
     p {
-        color: ${props => props.theme.black};
+        color: ${props => props.theme.white};
         font-size: 16px;
         margin-inline: 5%;
         margin-block: 1vh;
     }
     input {
-        background: ${props => props.theme.white};
-        color: ${props => props.theme.black};
+        background: ${props => props.theme.OxfordBlue};
+        color: ${props => props.theme.white};
         display: flex;
         width: 90%;
         padding-bottom: 45%;
         margin-left: 5%;
-        border-radius: 2vh;
+        border-radius: 1.2vh;
         border: none;
         outline: none;
+        font-size: 2.2vh;
     }
     button {
-        background: ${props => props.theme.darkblue};
-        color: ${props => props.theme.black};
+        background: ${props => props.theme.OxfordBlue};
+        color: ${props => props.theme.white};
         font-size: 2vh;
         margin-block: 2vh;
         margin: 5%;
@@ -151,7 +53,7 @@ export const FeedbackContainer = styled.div`
         }
     }
     input::placeholder {
-        color: ${props => props.theme.black};
+        color: ${props => props.theme.white};
         position: absolute;
         top: 0; 
         left: 0;
