@@ -13,7 +13,7 @@ export const BarraContainer = styled.div`
     img {
         height: 4vh;
         margin-top: 2%;
-        margin-inline: 1.2vh;
+        
     }
     h1 {
         font-size: 3vh;

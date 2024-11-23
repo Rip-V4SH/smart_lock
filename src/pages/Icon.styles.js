@@ -4,6 +4,7 @@ export const IconContainer = styled.div`
   position: relative;
   display: inline-block;
 
+
   .hover-text {
     position: absolute;
     top: 50%;

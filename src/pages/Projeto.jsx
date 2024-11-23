@@ -70,13 +70,13 @@ export function Projeto() {
             <div>
               <h2>Projeto</h2>
               <p>Com a nossa maçaneta com leitor biométrico, você traz segurança para sua casa sem comprometer o seu orçamento. Com ela, você terá:</p>
-              <p>Controle total sobre quem entra e sai;<br/>Um alarme que avisa diretamente no seu aplicativo, além de comunicar situações de emergência;<br/>Facilidade de acesso no seu dia a dia, tornando a rotina mais prática e segura.</p>
+              <p><strong>Controle total de acesso: </strong>Monitore com precisão quem entra e sai de sua residência, com registros acessíveis diretamente no aplicativo.<br/><strong>Sistema de alerta avançado: </strong>Receba notificações em tempo real no seu smartphone em caso de tentativas de acesso não autorizadas, além de comunicação automática com serviços de emergência em situações críticas.<br/><strong>Praticidade no dia a dia: </strong>Elimine a necessidade de chaves, simplificando sua rotina e aumentando a conveniência ao acessar sua casa.</p>
             </div>
           </CardContainer2>
           <CardContainer3>
             <div>
               <h2>Aplicativo</h2>
-              <p>Nosso aplicativo garante a segurança da sua casa com recursos essenciais: você pode ligar diretamente para a emergência, o alarme é ativado em tentativas de invasão e o sistema detecta presenças suspeitas. Com ele, a proteção da sua residência está sempre ao seu alcance!</p>
+              <p>Nosso aplicativo foi desenvolvido para garantir a máxima segurança da sua casa, oferecendo recursos essenciais e tecnologia avançada. Entre suas funcionalidades, está a possibilidade de realizar chamadas diretas para serviços de emergência com apenas um toque, ativação automática de alarme em caso de tentativas de invasão, e um sistema inteligente capaz de detectar presenças suspeitas no ambiente. Tudo isso é integrado de forma prática e acessível, permitindo que você monitore e proteja sua residência a qualquer momento e de onde estiver, trazendo tranquilidade e segurança ao seu dia a dia.</p>
             </div>
           </CardContainer3>
         </Cardinfos>

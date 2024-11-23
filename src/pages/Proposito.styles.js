@@ -55,7 +55,7 @@ export const DivCards = styled.div`
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        margin-inline: 10%;
+        margin-inline: 15%;
         gap: 2rem;
     }
 `

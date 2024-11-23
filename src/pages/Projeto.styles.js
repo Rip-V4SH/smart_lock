@@ -11,6 +11,7 @@ export const CardContainer2 = styled.div`
       color: ${props => props.theme.white};
       margin-block: 1vh;
       text-align: center;
+      font-size: 26px;
     }
     p {
       color: ${props => props.theme.white};
@@ -39,6 +40,7 @@ export const CardContainer3 = styled.div`
       color: ${props => props.theme.white};
       margin-block: 1vh;
       text-align: center;
+      font-size: 26px;
     }
     p {
       color: ${props => props.theme.white};
