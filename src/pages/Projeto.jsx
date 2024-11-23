@@ -68,10 +68,9 @@ export function Projeto() {
         <Cardinfos>
           <CardContainer2>
             <div>
+              <h2>Projeto</h2>
               <p>Com a nossa maçaneta com leitor biométrico, você traz segurança para sua casa sem comprometer o seu orçamento. Com ela, você terá:</p>
-              <p>Controle total sobre quem entra e sai;</p>
-              <p>Um alarme que avisa diretamente no seu aplicativo, além de comunicar situações de emergência;</p>
-              <p>Facilidade de acesso no seu dia a dia, tornando a rotina mais prática e segura.</p>
+              <p>Controle total sobre quem entra e sai;<br/>Um alarme que avisa diretamente no seu aplicativo, além de comunicar situações de emergência;<br/>Facilidade de acesso no seu dia a dia, tornando a rotina mais prática e segura.</p>
             </div>
           </CardContainer2>
           <CardContainer3>

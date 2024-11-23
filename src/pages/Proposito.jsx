@@ -69,24 +69,30 @@ export function Proposito() {
       </BarraContainer>
         <DivCards>
             <CardContainer>
-            <div>
-                <h2>SEGURANÇA</h2>
-                <p>A área da segurança é pouca explorada nos projetos de TCC. Decidimos dar ênfase a ela, por meio da criação da Smart Lock que contém muitos requisitos e barreiras de seguranças vitais para o consumidor.</p>
-                <img src={seg} alt="escudo simbolizando segurança" />
+            <div>              
+              <h2>SEGURANÇA</h2>
+              <section>
+                <p>A área de segurança é pouco explorada nos projetos de TCC, o que nos motivou a dar destaque a esse tema em nosso trabalho. Nosso objetivo foi desenvolver a <strong>Smart Lock</strong>, um dispositivo que incorpora diversos requisitos e barreiras de segurança essenciais para atender às necessidades do consumidor, oferecendo soluções inovadoras e eficazes para a proteção de bens e informações.</p>              
+              <img src={seg} alt="escudo simbolizando segurança" />
+              </section>
             </div>
             </CardContainer>
             <CardContainer>
             <div>
-                <h2>ACESSIBILIDADE</h2>
-                <p>Nossos conceitos e idéias sempre levam ao um único denominador comum: custo-benefício é o que prezamos. Buscamos entregar um produto com a mais alta tecnologia para pessoas que normalmente não conseguiriam adquirir.</p>
+              <h2>ACESSIBILIDADE</h2>
+              <section>
                 <img src={mao} alt="maozinha" />
+                <p>Nossos conceitos e ideias sempre convergem para um único objetivo: oferecer o melhor custo-benefício aos nossos clientes. Acreditamos que tecnologia de ponta deve ser acessível a todos, independentemente de limitações financeiras. Por isso, nos empenhamos em desenvolver produtos inovadores e de alta qualidade, garantindo que pessoas que normalmente não teriam acesso a esse nível de tecnologia possam desfrutar de soluções avançadas e eficientes em seu dia a dia.</p>
+              </section>            
             </div>
             </CardContainer>
             <CardContainer>
-            <div>
-                <h2>INTEGRAÇÕES</h2>
-                <p>Um quesito obrigatório, aliado importante para o andamento e funcionamento total da Smart Lock, já que o uso do Bluetooth será um agente essencial e indispensável como no cadastro de digitais.</p>
+            <div>              
+              <h2>INTEGRAÇÕES</h2>
+              <section>
+                <p>O Bluetooth desempenha um papel obrigatório e essencial no funcionamento completo da Smart Lock, atuando como um aliado indispensável para suas operações. Ele é fundamental em processos-chave, como o cadastro de digitais, garantindo conectividade eficiente e integração perfeita entre o dispositivo e o usuário.</p>                 
                 <img src={nuvem} alt="Nuvemzinha" />
+              </section>
             </div>
             </CardContainer>
         </DivCards>
