@@ -86,3 +86,50 @@ export const CylinderContainer4 = styled.div `
     }
     
 `
+export const PopupContainer = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+`;
+
+export const PopupContent = styled.div`
+  background: ${props => props.theme.white};
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  
+  h3 {
+    margin-bottom: 1rem;
+    color: ${props => props.theme.OxfordBlue};
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+    color: ${props => props.theme.bluedgrey};
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    background: ${props => props.theme.OxfordBlue};
+    color: ${props => props.theme.white};
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+    &:hover {
+      background: ${props => props.theme.darkblue};
+    }
+  }
+`;
