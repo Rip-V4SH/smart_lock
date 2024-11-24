@@ -67,6 +67,7 @@ export function Proposito() {
           </div>
         </header>
       </BarraContainer>
+      <hr />
         <DivCards>
             <CardContainer>
             <div>              

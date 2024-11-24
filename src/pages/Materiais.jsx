@@ -133,7 +133,7 @@ export function Materiais() {
           </div>
         </header>
       </BarraContainer>
-
+      <hr />
       {materials.map((material, index) => (
         <MaterialItem
           key={material.title}

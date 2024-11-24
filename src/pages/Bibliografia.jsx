@@ -64,6 +64,7 @@ export default function Bibliografia() {
           </div>
         </header>
       </BarraContainer>
+      <hr />
         <BioResponsivity>
         <BioContainer>
         <div>

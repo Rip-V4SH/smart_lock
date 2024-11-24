@@ -65,6 +65,7 @@ export function Feedback() {
           </div>
         </header>
       </BarraContainer>
+      <hr />
             <div>
                 <Main>
                     <FeedbackContainer>

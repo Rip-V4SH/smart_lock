@@ -94,7 +94,7 @@ export function Agradecimentos() {
           </div>
         </header>
       </BarraContainer>
-
+      <hr />
       <CylinderContainer3>
         <div onClick={() => handlePopup("Plínio")}>
           <h2>Plínio</h2>

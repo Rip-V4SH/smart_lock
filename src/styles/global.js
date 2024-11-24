@@ -14,8 +14,12 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background: ${props => props.theme.OxfordBlue};
+        border: 1px solid red;
+        /* margin: 1rem; */
     }
-    
-    
+    hr {
+        margin-bottom: 2vh;
+        color: ${props => props.theme.bluedgrey};
+    }
 `
 

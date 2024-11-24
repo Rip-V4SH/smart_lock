@@ -2,40 +2,38 @@ import styled from "styled-components"
 
 export const BarraContainer = styled.div`
     color: ${props => props.theme.white};
-    margin-block: 2vh;
+    margin: 1vh 2vh 1vh 2vh;
     header {
         display: flex;
         flex-direction:column;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     img {
-        height: 4vh;
+        height: 40px;
         margin-top: 2%;
-        margin-inline: 0.4rem;
+        margin-left: 1rem;
     }
     h1 {
         font-size: 3vh;
     }
     @media (min-width: 768px) {
         header {
-            margin-bottom: 4vh;
             display: flex;
             flex-direction:row;
-            align-items: center;
-            justify-content:space-between;
+            justify-content: space-between;
+            /* justify-content:space-between; */
         }
 
         img {
             height: 40px;
-            margin-inline: 0.4rem;
         }
 
         h1 {
             font-size:50px;
             text-transform: uppercase;
-            margin-left: 2rem;
         }
     }
 `

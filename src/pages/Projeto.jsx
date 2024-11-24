@@ -63,7 +63,8 @@ export function Projeto() {
             </Link>
           </div>
         </header>
-      </BarraContainer>
+      </BarraContainer>  
+      <hr />
       <Main>
         <Cardinfos>
           <CardContainer2>

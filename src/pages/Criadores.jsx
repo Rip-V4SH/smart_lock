@@ -74,7 +74,7 @@ export function Criadores() {
           </div>
         </header>
       </BarraContainer>
-
+      <hr />
       <CardsResponsivity>
         <CardsContainer3>
           <div>

@@ -12,7 +12,7 @@ export const IconContainer = styled.div`
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.6); /* Fundo escuro semi-transparente */
     color: #fff;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     border-radius: 0.5rem;
     opacity: 0; /* Esconde o texto inicialmente */
     transition: opacity 0.3s ease; /* Suaviza o aparecimento do texto */
