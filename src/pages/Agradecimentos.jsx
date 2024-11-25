@@ -8,7 +8,7 @@ import prop from "../assets/menu/proposito.svg";
 import comp from "../assets/menu/componentes.svg";
 import cria from "../assets/menu/criadores.svg";
 import projeto from "../assets/menu/projeto.svg";
-import agradece from "../assets/menu/agradecimentos.svg";
+import agradece from "../assets/menu/game.svg";
 import bio from "../assets/menu/bio.svg";
 import Plipli from "../assets/Plinio.png";
 import TDP from "../assets/Marcio.png";
@@ -75,14 +75,8 @@ export function Agradecimentos() {
             </Link>
             <Link to="/agradecimentos">
               <IconContainer>
-                <img src={agradece} alt="Agradecimentos" />
-                <div className="hover-text">Agradecimentos</div>
-              </IconContainer>
-            </Link>
-            <Link to="/criadores">
-              <IconContainer>
-                <img src={cria} alt="Criadores" />
-                <div className="hover-text">Criadores</div>
+                <img src={agradece} alt="Jogo" />
+                <div className="hover-text">Jogo</div>
               </IconContainer>
             </Link>
             <Link to="/bibliografia">

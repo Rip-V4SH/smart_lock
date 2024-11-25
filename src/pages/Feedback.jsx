@@ -2,7 +2,7 @@ import config from '../assets/menu/config.svg'
 import prop from '../assets/menu/proposito.svg'
 import comp from '../assets/menu/componentes.svg'
 import cria from '../assets/menu/criadores.svg'
-import agradece from '../assets/menu/agradecimentos.svg'
+import agradece from '../assets/menu/game.svg'
 import projeto from '../assets/menu/projeto.svg'
 import bio from '../assets/menu/bio.svg'
 import { IconContainer } from "./Icon.styles";
@@ -48,12 +48,6 @@ export function Feedback() {
               <IconContainer>
                 <img src={agradece} alt="Agradecimentos" />
                 <div className="hover-text">Agradecimentos</div>
-              </IconContainer>
-            </Link>
-            <Link to='/criadores'>
-              <IconContainer>
-                <img src={cria} alt="Criadores" />
-                <div className="hover-text">Criadores</div>
               </IconContainer>
             </Link>
             <Link to='/bibliografia'>

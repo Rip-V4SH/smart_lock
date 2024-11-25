@@ -3,15 +3,20 @@ import config from '../assets/menu/config.svg';
 import prop from '../assets/menu/proposito.svg';
 import comp from '../assets/menu/componentes.svg';
 import cria from '../assets/menu/criadores.svg';
-import agradece from '../assets/menu/agradecimentos.svg';
+import agradece from '../assets/menu/game.svg';
 import projeto from '../assets/menu/projeto.svg';
 import bio from '../assets/menu/bio.svg';
 import { IconContainer } from "./Icon.styles";
 import { Link } from "react-router-dom";
 import Menu from "../components/Menu";
-import { CardContainer2, Cardinfos, CardContainer3, ImageBox2, Main } from "./Projeto.styles";
+import TDP from "../assets/Marcio.png";
+import Plipli from "../assets/Plinio.png";
+import Igor from "../assets/Igor.jpg"
+import Felipe from "../assets/Felipe.png"
+import Arthur from "../assets/Arthur.png"
+import { CardContainer2, Cardinfos, CardContainer3, ImageBox2, Main, Creditos, Creditos2, CylinderContainer5 } from "./Projeto.styles";
+import { CylinderContainer3, CylinderContainer4, PopupContainer, PopupContent } from "./Agradecimentos.styles";
 import smartLock from '../assets/smart-lock.jpg';
-
 export function Projeto() {
   return (
     <section>
@@ -49,12 +54,6 @@ export function Projeto() {
                 <div className="hover-text">Agradecimentos</div>
               </IconContainer>
             </Link>
-            <Link to='/criadores'>
-              <IconContainer>
-                <img src={cria} alt="Criadores" />
-                <div className="hover-text">Criadores</div>
-              </IconContainer>
-            </Link>
             <Link to='/bibliografia'>
               <IconContainer>
                 <img src={bio} alt="Bibliografia" />
@@ -81,11 +80,84 @@ export function Projeto() {
             </div>
           </CardContainer3>
         </Cardinfos>
-        <ImageBox2>
-          <div>
-            <img src={smartLock} alt="Smart Lock" />
-          </div>
-        </ImageBox2>
+        <section>
+          <ImageBox2>
+            <div>
+              <img src={smartLock} alt="Smart Lock" />
+              <img src={smartLock} alt="Smart Lock" />
+            </div>
+          </ImageBox2>
+          <Creditos>
+            <section>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Plínio</h2>
+                  <img src={Plipli} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Marcio M.</h2>
+                  <img src={TDP} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+            </section>
+            <section>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Felipe V.</h2>
+                  <img src={Felipe} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Arthur L.</h2>
+                  <img src={Arthur} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+            </section>
+            <section>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Igor F.</h2>
+                  <img src={Igor} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+            </section>
+          </Creditos>
+          <Creditos2>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Plínio</h2>
+                  <img src={Plipli} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Marcio M.</h2>
+                  <img src={TDP} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Felipe V.</h2>
+                  <img src={Felipe} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Arthur L.</h2>
+                  <img src={Arthur} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Igor F.</h2>
+                  <img src={Igor} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+          </Creditos2>
+        </section>
       </Main>
     </section>
   );
