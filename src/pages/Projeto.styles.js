@@ -69,17 +69,19 @@ export const CardContainer3 = styled.div`
 `;
 
 export const ImageBox2 = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 1vh;
-    width: 100%;
-    
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  width: 100%;
+  margin-bottom: 2rem;
+  
   div {
     display: flex;
     flex-direction: row;
     gap: 1vh;
     width: auto;
   }
+
   @media (min-width: 768px) {
     flex-direction: row;
     height: 100%;
@@ -101,6 +103,7 @@ export const ImageBox2 = styled.div`
     width: 100%;
     @media (min-width: 768px) {
       width: 45%;
+      border-radius: 2rem;
     }
   }
 `;
@@ -134,22 +137,24 @@ export const Main = styled.div`
 `;
 
 export const Creditos = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 2vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2vh;
 
-    section {
-      display: flex;
-      flex-direction: row;
-    }
-    @media (min-width: 768px) {
-      display: none;
-      width: 100%;
-      flex-direction: row;
-      gap: 0;
-    }
-`
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (min-width: 768px) {
+    display: none;
+    width: 100%;
+    flex-direction: row;
+    gap: 0;
+  }
+`;
+
 export const Creditos2 = styled.div`
   display: none;
   flex-direction: column;
@@ -161,7 +166,7 @@ export const Creditos2 = styled.div`
     width: 100%;
     flex-direction: row;
   }
-`
+`;
 
 export const Cardinfos = styled.div`
   border: 1px solid red;
@@ -228,6 +233,41 @@ export const CylinderContainer5 = styled.div`
   @media (min-width: 768px) {
     width: 100%;
   }
-    
-    
+`;
+
+export const PopupContainer = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+`;
+
+export const PopupContent = styled.div`
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  h2 {
+    margin-bottom: 1rem;
+  }
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
 `;
