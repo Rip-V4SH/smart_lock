@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
 export const CardContainer2 = styled.div`
+  border: 1px solid red;
   div {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: ${props => props.theme.bluedgrey};
     color: ${props => props.theme.white};
     padding: 1.2vh;
@@ -17,6 +23,9 @@ export const CardContainer2 = styled.div`
       color: ${props => props.theme.white};
       margin-bottom: 1vh;
     }
+    video {
+      width: 100%;
+    }
     @media (min-width: 768px) {
       border-radius: 2vh;
       width: auto;
@@ -29,7 +38,9 @@ export const CardContainer2 = styled.div`
 `;
 
 export const CardContainer3 = styled.div`
+  border: 1px solid red;
   div {
+    border: 1px solid red;
     background: ${props => props.theme.bluedgrey};
     color: ${props => props.theme.white};
     padding: 1.2vh;
@@ -153,7 +164,9 @@ export const Creditos2 = styled.div`
 `
 
 export const Cardinfos = styled.div`
+  border: 1px solid red;
   margin-inline: 5%;
+  margin-bottom: 2vh;
   @media (min-width: 768px) {
     margin-inline: 0;
     display: flex;
@@ -166,12 +179,16 @@ export const Cardinfos = styled.div`
 
     div {
       width: 100%;
+      video {
+        width: 100%;
+      }
     }
   }
 `;
 
 export const CylinderContainer5 = styled.div`
   width: 100%;
+  margin-bottom: 2rem;
   div {
     display: flex;
     flex-direction: row-reverse;

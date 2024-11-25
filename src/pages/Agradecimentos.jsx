@@ -14,6 +14,12 @@ import Plipli from "../assets/Plinio.png";
 import TDP from "../assets/Marcio.png";
 import Danones from "../assets/Benones.png";
 import Wexley from "../assets/Wesley.png";
+import Igor from "../assets/Igor.jpg"
+import Felipe from "../assets/Felipe.png"
+import Arthur from "../assets/Arthur.png"
+import { CardContainer2, Cardinfos, CardContainer3, ImageBox2, Main, Creditos, Creditos2, CylinderContainer5 } from "./Projeto.styles";
+
+import smartlock3 from '../assets/deep_dystopia.mp4';
 
 export function Agradecimentos() {
   const [popup, setPopup] = useState({ name: "", message: "" });
@@ -89,34 +95,94 @@ export function Agradecimentos() {
         </header>
       </BarraContainer>
       <hr />
-      <CylinderContainer3>
-        <div onClick={() => handlePopup("Plínio")}>
-          <h2>Plínio</h2>
-          <img src={Plipli} alt="Plínio" />
-        </div>
-      </CylinderContainer3>
-
-      <CylinderContainer4>
-        <div onClick={() => handlePopup("Márcio")}>
-          <img src={TDP} alt="Márcio" />
-          <h2>Márcio</h2>
-        </div>
-      </CylinderContainer4>
-
-      <CylinderContainer3>
-        <div onClick={() => handlePopup("Benones")}>
-          <h2>Benones</h2>
-          <img src={Danones} alt="Benones" />
-        </div>
-      </CylinderContainer3>
-
-      <CylinderContainer4>
-        <div onClick={() => handlePopup("Wesley")}>
-          <img src={Wexley} alt="Wesley" />
-          <h2>Wesley</h2>
-        </div>
-      </CylinderContainer4>
-
+      <Cardinfos>
+          <CardContainer2>
+            <div>
+              <video src={smartlock3}
+              controls
+              width={1080}
+              autoPlay
+              muted
+              ></video>
+            </div>
+          </CardContainer2>
+          <CardContainer3>
+            <div>
+              <h2>Aplicativo</h2>
+              <p>Nosso aplicativo foi desenvolvido para garantir a máxima segurança da sua casa, oferecendo recursos essenciais e tecnologia avançada. Entre suas funcionalidades, está a possibilidade de realizar chamadas diretas para serviços de emergência com apenas um toque, ativação automática de alarme em caso de tentativas de invasão, e um sistema inteligente capaz de detectar presenças suspeitas no ambiente. Tudo isso é integrado de forma prática e acessível, permitindo que você monitore e proteja sua residência a qualquer momento e de onde estiver, trazendo tranquilidade e segurança ao seu dia a dia.</p>
+            </div>
+          </CardContainer3>
+        </Cardinfos>
+      <Creditos>
+            <section>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Plínio</h2>
+                  <img src={Plipli} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Marcio M.</h2>
+                  <img src={TDP} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+            </section>
+            <section>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Felipe V.</h2>
+                  <img src={Felipe} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Arthur L.</h2>
+                  <img src={Arthur} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+            </section>
+            <section>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Igor F.</h2>
+                  <img src={Igor} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+            </section>
+          </Creditos>
+          <Creditos2>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Plínio</h2>
+                  <img src={Plipli} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Marcio M.</h2>
+                  <img src={TDP} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Felipe V.</h2>
+                  <img src={Felipe} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Arthur L.</h2>
+                  <img src={Arthur} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+              <CylinderContainer5>
+                <div onClick={() => handlePopup("Plínio")}>
+                  <h2>Igor F.</h2>
+                  <img src={Igor} alt="Plínio" />
+                </div>
+              </CylinderContainer5>
+          </Creditos2>
       {popup.name && (
         <PopupContainer onClick={closePopup}>
           <PopupContent onClick={(e) => e.stopPropagation()}>
