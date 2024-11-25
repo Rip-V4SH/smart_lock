@@ -47,7 +47,7 @@ export function Agradecimentos() {
     <section>
       <BarraContainer>
         <header>
-          <h1>AGRADECIMENTOS</h1>
+          <h1>DEEP DYSTOPIA</h1>
           <div className="icons">
             <Link to="/feedback">
               <IconContainer>

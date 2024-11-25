@@ -58,15 +58,21 @@ export const CardContainer3 = styled.div`
 `;
 
 export const ImageBox2 = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 100%;
+    
   div {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     gap: 1vh;
-    width: 100%;
+    width: auto;
   }
   @media (min-width: 768px) {
+    flex-direction: row;
     height: 100%;
+    justify-content: space-between;
   }
 
   img {
@@ -74,11 +80,16 @@ export const ImageBox2 = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
-    width: 20vh;
+    width: 100%;
     @media (min-width: 768px) {
-      height: 70vh;
-      width: 52.5vh;
-      margin-right: 40vh;
+      width: 45%;
+    }
+  }
+
+  video {
+    width: 100%;
+    @media (min-width: 768px) {
+      width: 45%;
     }
   }
 `;
