@@ -76,8 +76,8 @@ export const ImageBox2 = styled.div`
     border-radius: 2rem;
     width: 20vh;
     @media (min-width: 768px) {
-      height: 40vh;
-      width: 30vh;
+      height: 70vh;
+      width: 52.5vh;
     }
   }
 `;

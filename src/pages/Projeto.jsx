@@ -17,6 +17,8 @@ import Arthur from "../assets/Arthur.png"
 import { CardContainer2, Cardinfos, CardContainer3, ImageBox2, Main, Creditos, Creditos2, CylinderContainer5 } from "./Projeto.styles";
 import { CylinderContainer3, CylinderContainer4, PopupContainer, PopupContent } from "./Agradecimentos.styles";
 import smartLock from '../assets/smart-lock.jpg';
+import smartLock2 from '../assets/Movie002.mp4';
+
 export function Projeto() {
   return (
     <section>
@@ -84,7 +86,14 @@ export function Projeto() {
           <ImageBox2>
             <div>
               <img src={smartLock} alt="Smart Lock" />
-              <img src={smartLock} alt="Smart Lock" />
+              <video src={smartLock2}
+              controls
+              width={350}
+              autoPlay
+              muted
+              >
+
+              </video>
             </div>
           </ImageBox2>
           <Creditos>

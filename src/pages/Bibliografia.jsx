@@ -9,6 +9,7 @@ import { IconContainer } from "./Icon.styles";
 import { BarraContainer } from "./Barra.styles"
 import { BioContainer, BioResponsivity } from './Bibliografia.styles'
 import { Link } from 'react-router-dom'
+import smartlock3 from '../assets/deep_dystopia.mp4';
 
 import Menu from "../components/Menu"
 
@@ -75,7 +76,14 @@ export default function Bibliografia() {
               Assim, a convergência entre Segurança da Informação, automação residencial e avanços em tecnologias biométricas evidencia uma transformação no modo como interagimos com nossos espaços residenciais e profissionais. Estamos caminhando para um futuro onde a integração inteligente de sistemas não apenas aumenta a comodidade, mas também fortalece a proteção de dados e a eficiência dos ambientes que habitamos e trabalhamos.
             </p>
             <p>.</p>
-            <a href="https://drive.google.com/file/d/1XFi7v90nMgWuyXdYt2k4YRFyPL43OvtU/view?usp=sharing">Trailer: Deep Dystopia</a>
+            <video src={smartlock3}
+              controls
+              width={1280}
+              autoPlay
+              muted
+            >
+
+            </video>
         </div>
         </BioContainer>
         </BioResponsivity>
