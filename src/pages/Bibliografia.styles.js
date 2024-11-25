@@ -18,6 +18,14 @@ export const BioContainer = styled.div`
 
 export const BioResponsivity = styled.div`
     display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+    video {
+        margin-top: 2rem;
+        width: 100%;
+        border-radius: 1rem;
+    }
     @media (min-width: 768px) {
         margin-top: 5%;
     }

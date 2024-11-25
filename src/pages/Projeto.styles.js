@@ -73,13 +73,24 @@ export const ImageBox2 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2rem;
     width: 20vh;
+    height: 27vh;
     @media (min-width: 768px) {
       height: 70vh;
       width: 52.5vh;
+      margin-right: 20vh;
     }
   }
+
+  video {
+    height: 27vh;
+    width: 20vh;
+    @media (min-width: 768px) {
+    height: 70vh;
+    width: 52.5vh;
+    border-radius: 2rem;
+  }
+}
 `;
 
 export const Main = styled.div`
@@ -168,6 +179,7 @@ export const CylinderContainer5 = styled.div`
     width: 100%;
     border-radius: 10vh;
     border-left: none;
+    width: 9rem;
     h2 {
       color: ${props => props.theme.white};
       margin-block: 2vh;

@@ -106,7 +106,7 @@ export function Projeto() {
               </CylinderContainer5>
               <CylinderContainer5>
                 <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Marcio M.</h2>
+                  <h2>Márcio</h2>
                   <img src={TDP} alt="Plínio" />
                 </div>
               </CylinderContainer5>
@@ -114,13 +114,13 @@ export function Projeto() {
             <section>
               <CylinderContainer5>
                 <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Felipe V.</h2>
+                  <h2>Felipe</h2>
                   <img src={Felipe} alt="Plínio" />
                 </div>
               </CylinderContainer5>
               <CylinderContainer5>
                 <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Arthur L.</h2>
+                  <h2>Arthur</h2>
                   <img src={Arthur} alt="Plínio" />
                 </div>
               </CylinderContainer5>
@@ -128,7 +128,7 @@ export function Projeto() {
             <section>
               <CylinderContainer5>
                 <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Igor F.</h2>
+                  <h2>Igor</h2>
                   <img src={Igor} alt="Plínio" />
                 </div>
               </CylinderContainer5>
