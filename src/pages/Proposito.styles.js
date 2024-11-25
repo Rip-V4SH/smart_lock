@@ -38,9 +38,9 @@ export const CardContainer = styled.div`
 
         }
         @media(min-width: 1024px) {
-            height: 20vh;
+            margin-top: 2rem;
+            height: 30vh;
             width: 120vh;
-            /* margin-inline: 5vh; */
         }
     }
 `

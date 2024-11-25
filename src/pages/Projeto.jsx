@@ -86,9 +86,11 @@ export function Projeto() {
           <ImageBox2>
             <div>
               <img src={smartLock} alt="Smart Lock" />
+            </div>
+            <div>
               <video src={smartLock2}
               controls
-              width={350}
+              width={300}
               autoPlay
               muted
               >
@@ -96,76 +98,6 @@ export function Projeto() {
               </video>
             </div>
           </ImageBox2>
-          <Creditos>
-            <section>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Plínio</h2>
-                  <img src={Plipli} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Márcio</h2>
-                  <img src={TDP} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-            </section>
-            <section>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Felipe</h2>
-                  <img src={Felipe} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Arthur</h2>
-                  <img src={Arthur} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-            </section>
-            <section>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Igor</h2>
-                  <img src={Igor} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-            </section>
-          </Creditos>
-          <Creditos2>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Plínio</h2>
-                  <img src={Plipli} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Marcio M.</h2>
-                  <img src={TDP} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Felipe V.</h2>
-                  <img src={Felipe} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Arthur L.</h2>
-                  <img src={Arthur} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Igor F.</h2>
-                  <img src={Igor} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-          </Creditos2>
         </section>
       </Main>
     </section>

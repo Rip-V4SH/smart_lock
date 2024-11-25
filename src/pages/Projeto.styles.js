@@ -58,15 +58,18 @@ export const CardContainer3 = styled.div`
 `;
 
 export const ImageBox2 = styled.div`
-  div {
+
+  margin-inline: 5%;
+  @media (min-width: 768px) {
+
+    margin-inline: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 1vh;
-    width: 100%;
-  }
-  @media (min-width: 768px) {
-    height: 100%;
+    width: auto;
+    justify-content: space-between;
+    padding-inline: 5%;
+    gap: 2rem;
+    line-height: 1.5;
   }
 
   img {
@@ -78,13 +81,13 @@ export const ImageBox2 = styled.div`
     @media (min-width: 768px) {
       height: 70vh;
       width: 52.5vh;
-      margin-right: 20vh;
     }
   }
 
   video {
     height: 27vh;
     width: 20vh;
+    margin-bottom: 2rem;
     @media (min-width: 768px) {
     height: 70vh;
     width: 52.5vh;
@@ -171,6 +174,7 @@ export const Cardinfos = styled.div`
 
 export const CylinderContainer5 = styled.div`
   width: 100%;
+  margin-bottom: 2rem;
   div {
     display: flex;
     flex-direction: row-reverse;
@@ -186,8 +190,8 @@ export const CylinderContainer5 = styled.div`
       margin-right: auto;
     }
     img {
-      height: 6vh;
-      width: 6vh;
+      height: 15vh;
+      width: 15vh;
       margin: 1vh;
       border-radius: 50rem;
     }
