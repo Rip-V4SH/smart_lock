@@ -30,16 +30,16 @@ export function Projeto() {
         message = "Nosso professor de Robótica, responsável por fornecer todo o suporte e apoio didático necessário para a realização da parte física (Protótipo).";
         break;
       case "Márcio":
-        message = "Nosso professor de Desenvolvimento de Websites, sendo responsável por passar todo seu conhecimento para que pudéssemos criar o nosso site.";
+        message = "Nosso professor de Desenvolvimento de Websites, sendo responsável por passar todo seu conhecimento para que pudéssemos criar o nosso Aplicativo.";
         break;
       case "Felipe":
-        message = "Nosso colega de equipe, sempre focado e dedicado, contribuindo significativamente para o progresso do nosso projeto.";
+        message = "Liderou a etapa final do projeto de robótica, sendo responsável pela montagem, integração e otimização do código. Seu trabalho foi essencial para corrigir problemas e garantir que o robô fosse entregue funcional e alinhado aos objetivos da equipe.";
         break;
       case "Arthur":
-        message = "Nosso colega de equipe, responsável por várias tarefas essenciais, sempre com dedicação e comprometimento.";
+        message = "Foi o principal responsável pelo desenvolvimento inicial do projeto, definindo as bases e direcionando as etapas iniciais. Sua atuação foi essencial para estruturar ideias, planejar soluções e garantir um início sólido para o trabalho da equipe..";
         break;
       case "Igor":
-        message = "Nosso colega de equipe, trazendo uma visão crítica e criativa que ajudou a melhorar diversos aspectos do projeto.";
+        message = "Liderou o design, a construção e o acabamento da estrutura externa do projeto. Seu cuidado com os detalhes garantiu uma combinação perfeita entre funcionalidade e estética, resultando em uma estrutura robusta e visualmente impactante.";
         break;
       default:
         message = "Agradecimento especial!";
@@ -137,7 +137,7 @@ export function Projeto() {
           </CylinderContainer5>
           <CylinderContainer5>
             <div onClick={() => handlePopup("Márcio")}>
-              <h2>Márcio</h2>
+              <h2>Márcio M.</h2>
               <img src={TDP} alt="Márcio" />
             </div>
           </CylinderContainer5>
@@ -145,13 +145,13 @@ export function Projeto() {
         <section>
           <CylinderContainer5>
             <div onClick={() => handlePopup("Felipe")}>
-              <h2>Felipe</h2>
+              <h2>Felipe V.</h2>
               <img src={Felipe} alt="Felipe" />
             </div>
           </CylinderContainer5>
           <CylinderContainer5>
             <div onClick={() => handlePopup("Arthur")}>
-              <h2>Arthur</h2>
+              <h2>Arthur L.</h2>
               <img src={Arthur} alt="Arthur" />
             </div>
           </CylinderContainer5>
@@ -159,7 +159,7 @@ export function Projeto() {
         <section>
           <CylinderContainer5>
             <div onClick={() => handlePopup("Igor")}>
-              <h2>Igor</h2>
+              <h2>Igor F.</h2>
               <img src={Igor} alt="Igor" />
             </div>
           </CylinderContainer5>

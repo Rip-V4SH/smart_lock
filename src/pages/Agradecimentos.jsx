@@ -40,6 +40,17 @@ export function Agradecimentos() {
       case "Wesley":
         message = "Nosso professor de Design Digital, sendo fundamental para a nossa formação acadêmica na área do TI e sendo o líder supremo da UNASP.";
         break;
+        case "Felipe":
+        message = "Liderou a etapa final do projeto de robótica, sendo responsável pela montagem, integração e otimização do código. Seu trabalho foi essencial para corrigir problemas e garantir que o robô fosse entregue funcional e alinhado aos objetivos da equipe.";
+        break;
+      case "Arthur":
+        message = "Foi o principal responsável pelo desenvolvimento inicial do projeto, definindo as bases e direcionando as etapas iniciais. Sua atuação foi essencial para estruturar ideias, planejar soluções e garantir um início sólido para o trabalho da equipe..";
+        break;
+      case "Igor":
+        message = "Liderou o design, a construção e o acabamento da estrutura externa do projeto. Seu cuidado com os detalhes garantiu uma combinação perfeita entre funcionalidade e estética, resultando em uma estrutura robusta e visualmente impactante.";
+        break;
+      default:
+        message = "Agradecimento especial!";
     }
 
     setPopup({ name, message });
@@ -108,78 +119,64 @@ export function Agradecimentos() {
           </CardContainer2>
           <CardContainer3>
             <div>
-              <h2>Aplicativo</h2>
-              <p>Nosso aplicativo foi desenvolvido para garantir a máxima segurança da sua casa, oferecendo recursos essenciais e tecnologia avançada. Entre suas funcionalidades, está a possibilidade de realizar chamadas diretas para serviços de emergência com apenas um toque, ativação automática de alarme em caso de tentativas de invasão, e um sistema inteligente capaz de detectar presenças suspeitas no ambiente. Tudo isso é integrado de forma prática e acessível, permitindo que você monitore e proteja sua residência a qualquer momento e de onde estiver, trazendo tranquilidade e segurança ao seu dia a dia.</p>
+              <h2>Deep Dystopia</h2>
+              <p>Nosso jogo é uma aventura em um cenário futurista vibrante, onde toda a arte foi criada por nós mesmos, trazendo um toque único e pessoal para cada detalhe. Cada pixel foi pensado para dar vida a um universo envolvente e imersivo, repleto de cores e atmosferas que refletem a tensão e o mistério de um futuro distante.<br/>A história gira em torno de três personagens jogáveis, cada um com habilidades e personalidades distintas, que se unem para enfrentar desafios em um mundo à beira do colapso. Ao longo das três fases, os jogadores exploram ambientes variados, desde uma metrópole tecnológica decadente até bases espaciais e desertos cibernéticos. Cada fase apresenta inimigos desafiadores, puzzles intrigantes e chefes finais únicos que testam estratégia e habilidades.<br/>Com mecânicas de jogo dinâmicas e um estilo visual cuidadosamente trabalhado, nosso jogo é uma experiência que mistura ação, estratégia e narrativa em uma jornada emocionante.</p>
             </div>
           </CardContainer3>
         </Cardinfos>
       <Creditos>
             <section>
               <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Plínio</h2>
-                  <img src={Plipli} alt="Plínio" />
+                <div onClick={() => handlePopup("Benones")}>
+                  <h2>Benones</h2>
+                  <img src={Danones} alt="Benones" />
                 </div>
               </CylinderContainer5>
               <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Marcio M.</h2>
-                  <img src={TDP} alt="Plínio" />
+                <div onClick={() => handlePopup("Igor")}>
+                  <h2>Igor F.</h2>
+                  <img src={Igor} alt="Igor" />
                 </div>
               </CylinderContainer5>
             </section>
             <section>
               <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
+                <div onClick={() => handlePopup("Felipe")}>
                   <h2>Felipe V.</h2>
-                  <img src={Felipe} alt="Plínio" />
+                  <img src={Felipe} alt="Felipe" />
                 </div>
               </CylinderContainer5>
               <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
+                <div onClick={() => handlePopup("Arthur")}>
                   <h2>Arthur L.</h2>
                   <img src={Arthur} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-            </section>
-            <section>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Igor F.</h2>
-                  <img src={Igor} alt="Plínio" />
                 </div>
               </CylinderContainer5>
             </section>
           </Creditos>
           <Creditos2>
               <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Plínio</h2>
-                  <img src={Plipli} alt="Plínio" />
+                <div onClick={() => handlePopup("Benones")}>
+                  <h2>Benones</h2>
+                  <img src={Danones} alt="Benones" />
                 </div>
               </CylinderContainer5>
               <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Marcio M.</h2>
-                  <img src={TDP} alt="Plínio" />
+                <div onClick={() => handlePopup("Igor")}>
+                  <h2>Igor F.</h2>
+                  <img src={Igor} alt="Igor" />
                 </div>
               </CylinderContainer5>
               <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
+                <div onClick={() => handlePopup("Felipe")}>
                   <h2>Felipe V.</h2>
-                  <img src={Felipe} alt="Plínio" />
+                  <img src={Felipe} alt="Felipe" />
                 </div>
               </CylinderContainer5>
               <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
+                <div onClick={() => handlePopup("Arthur")}>
                   <h2>Arthur L.</h2>
                   <img src={Arthur} alt="Plínio" />
-                </div>
-              </CylinderContainer5>
-              <CylinderContainer5>
-                <div onClick={() => handlePopup("Plínio")}>
-                  <h2>Igor F.</h2>
-                  <img src={Igor} alt="Plínio" />
                 </div>
               </CylinderContainer5>
           </Creditos2>
